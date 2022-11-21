@@ -32,6 +32,10 @@ def main(params):
         
         print('inserted another chunk, took %.3f second' % (t_end - t_start))
 
+    df_lookup = pd.read_csv('taxi+_zone_lookup.csv')
+    df_lookup.to_sql(name='taxi_zone_lookup', con=engine, if_exists='replace')
+
+    print('successfully added')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Ingest parquet data to Postgres')
