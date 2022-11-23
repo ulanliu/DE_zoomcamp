@@ -1,0 +1,46 @@
+[2022-11-23 02:57:23,247] {manager.py:514} INFO - Processing files using up to 2 processes at a time 
+[2022-11-23 02:57:23,250] {manager.py:515} INFO - Process each file at most once every 30 seconds
+[2022-11-23 02:57:23,254] {manager.py:517} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-11-23 02:57:23,257] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2022-11-23 02:57:23,277] {manager.py:666} INFO - There are 0 files in /opt/airflow/dags
+[2022-11-23 02:57:23,393] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:57:23,397] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:52:23.396435+00:00
+[2022-11-23 02:57:33,553] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:57:33,566] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:52:33.565694+00:00
+[2022-11-23 02:57:43,823] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:57:43,846] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:52:43.845592+00:00
+[2022-11-23 02:57:54,077] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:57:54,093] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:52:54.093187+00:00
+[2022-11-23 02:58:04,355] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:58:04,373] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:53:04.373018+00:00
+[2022-11-23 02:58:14,571] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:58:14,577] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:53:14.577460+00:00
+[2022-11-23 02:58:24,964] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:58:25,057] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:53:25.057333+00:00
+[2022-11-23 02:58:35,464] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:58:35,571] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:53:35.570983+00:00
+[2022-11-23 02:58:46,404] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:58:46,490] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:53:46.489814+00:00
+[2022-11-23 02:58:56,908] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:58:56,921] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:53:56.921403+00:00
+[2022-11-23 02:59:07,225] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:59:07,252] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:54:07.252238+00:00
+[2022-11-23 02:59:17,578] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:59:17,598] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:54:17.598279+00:00
+[2022-11-23 02:59:27,887] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:59:27,894] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:54:27.894488+00:00
+[2022-11-23 02:59:38,035] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:59:38,057] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:54:38.057387+00:00
+[2022-11-23 02:59:48,217] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:59:48,231] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:54:48.231353+00:00
+[2022-11-23 02:59:58,367] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 02:59:58,381] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:54:58.381110+00:00
+[2022-11-23 03:00:08,589] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 03:00:08,601] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:55:08.600259+00:00
+[2022-11-23 03:00:18,755] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 03:00:18,770] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:55:18.769864+00:00
+[2022-11-23 03:00:28,937] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 03:00:28,962] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:55:28.962275+00:00
+[2022-11-23 03:00:39,123] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-11-23 03:00:39,353] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-11-23 02:55:39.299021+00:00
+[2022-11-23 03:00:39,750] {manager.py:495} INFO - Exiting gracefully upon receiving signal 15
