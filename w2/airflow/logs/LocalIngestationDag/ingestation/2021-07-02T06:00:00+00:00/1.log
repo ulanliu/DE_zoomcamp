@@ -1,0 +1,27 @@
+[2022-11-24 06:49:09,161] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestationDag.ingestation scheduled__2021-07-02T06:00:00+00:00 [queued]>
+[2022-11-24 06:49:09,314] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestationDag.ingestation scheduled__2021-07-02T06:00:00+00:00 [queued]>
+[2022-11-24 06:49:09,316] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-24 06:49:09,317] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-11-24 06:49:09,318] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-24 06:49:09,497] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): ingestation> on 2021-07-02 06:00:00+00:00
+[2022-11-24 06:49:09,528] {standard_task_runner.py:52} INFO - Started process 1626 to run task
+[2022-11-24 06:49:09,557] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'LocalIngestationDag', 'ingestation', 'scheduled__2021-07-02T06:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestation.py', '--cfg-path', '/tmp/tmptg5939zm', '--error-file', '/tmp/tmpavwndeg2']
+[2022-11-24 06:49:09,562] {standard_task_runner.py:77} INFO - Job 22: Subtask ingestation
+[2022-11-24 06:49:10,499] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestationDag.ingestation scheduled__2021-07-02T06:00:00+00:00 [running]> on host d01293c252ef
+[2022-11-24 06:49:10,989] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=LocalIngestationDag
+AIRFLOW_CTX_TASK_ID=ingestation
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-02T06:00:00+00:00
+[2022-11-24 06:49:10,994] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-11-24 06:49:10,996] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo "Ingestation start"']
+[2022-11-24 06:49:11,030] {subprocess.py:85} INFO - Output:
+[2022-11-24 06:49:11,080] {subprocess.py:89} INFO - Ingestation start
+[2022-11-24 06:49:11,084] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-11-24 06:49:12,004] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=LocalIngestationDag, task_id=ingestation, execution_date=20210702T060000, start_date=20221124T064909, end_date=20221124T064912
+[2022-11-24 06:49:12,259] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-11-24 06:49:12,575] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

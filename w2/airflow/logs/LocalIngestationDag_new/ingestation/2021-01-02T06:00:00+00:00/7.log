@@ -1,0 +1,36 @@
+[2022-11-26 07:46:28,696] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestationDag_new.ingestation scheduled__2021-01-02T06:00:00+00:00 [queued]>
+[2022-11-26 07:46:28,740] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestationDag_new.ingestation scheduled__2021-01-02T06:00:00+00:00 [queued]>
+[2022-11-26 07:46:28,741] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-26 07:46:28,742] {taskinstance.py:1239} INFO - Starting attempt 7 of 7
+[2022-11-26 07:46:28,743] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-26 07:46:28,787] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): ingestation> on 2021-01-02 06:00:00+00:00
+[2022-11-26 07:46:28,798] {standard_task_runner.py:52} INFO - Started process 3946 to run task
+[2022-11-26 07:46:28,808] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'LocalIngestationDag_new', 'ingestation', 'scheduled__2021-01-02T06:00:00+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestation.py', '--cfg-path', '/tmp/tmp83ye_bqs', '--error-file', '/tmp/tmpqy1lslem']
+[2022-11-26 07:46:28,811] {standard_task_runner.py:77} INFO - Job 102: Subtask ingestation
+[2022-11-26 07:46:28,958] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestationDag_new.ingestation scheduled__2021-01-02T06:00:00+00:00 [running]> on host 951f10ff76c7
+[2022-11-26 07:46:29,139] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-11-26 07:46:29,189] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=LocalIngestationDag_new
+AIRFLOW_CTX_TASK_ID=ingestation
+AIRFLOW_CTX_EXECUTION_DATE=2021-01-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-01-02T06:00:00+00:00
+[2022-11-26 07:46:29,192] {logging_mixin.py:109} INFO - yellow_taxi_2021_01 /opt/***/output_2021-01.parquet 2021-01-02T06:00:00+00:00
+[2022-11-26 07:46:29,194] {logging_mixin.py:109} INFO - 3.7.12
+[2022-11-26 07:46:29,195] {logging_mixin.py:109} INFO - 1.3.5
+[2022-11-26 07:46:29,197] {logging_mixin.py:109} INFO - connection established successfully, inserting data...
+[2022-11-26 07:47:42,588] {logging_mixin.py:109} INFO - inserted another chunk, took 71.094 second
+[2022-11-26 07:49:04,103] {logging_mixin.py:109} INFO - inserted another chunk, took 81.416 second
+[2022-11-26 07:50:50,579] {logging_mixin.py:109} INFO - inserted another chunk, took 106.389 second
+[2022-11-26 07:52:44,335] {logging_mixin.py:109} INFO - inserted another chunk, took 113.658 second
+[2022-11-26 07:54:39,127] {logging_mixin.py:109} INFO - inserted another chunk, took 114.667 second
+[2022-11-26 07:56:24,374] {logging_mixin.py:109} INFO - inserted another chunk, took 105.119 second
+[2022-11-26 09:28:05,848] {logging_mixin.py:109} INFO - inserted another chunk, took 5501.375 second
+[2022-11-26 09:28:13,248] {local_task_job.py:212} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-11-26 09:28:13,360] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 3946. PIDs of all processes in the group: [3946]
+[2022-11-26 09:28:13,363] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 3946
+[2022-11-26 09:28:13,370] {taskinstance.py:1408} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-11-26 10:39:21,968] {process_utils.py:70} INFO - Process psutil.Process(pid=3946, status='terminated', exitcode=0, started='07:46:28') (3946) terminated with exit code 0
+[2022-11-26 10:39:22,038] {local_task_job.py:142} ERROR - Heartbeat time limit exceeded!
