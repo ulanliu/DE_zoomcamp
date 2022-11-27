@@ -21,3 +21,7 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-05-02T06:00:00+00:00
  /tmp
 [2022-11-27 15:23:04,128] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2019-05.parquet > /opt/***/output_2019-05.parquet']
 [2022-11-27 15:23:04,175] {subprocess.py:85} INFO - Output:
+[2022-11-27 15:39:01,021] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-11-27 15:39:01,139] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=data_ingestation_gcp_dag, task_id=download_dataset_task, execution_date=20190502T060000, start_date=20221127T152302, end_date=20221127T153901
+[2022-11-27 15:39:01,220] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-11-27 15:39:01,364] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

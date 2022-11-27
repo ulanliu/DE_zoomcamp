@@ -38,25 +38,31 @@ def format_to_parquet(src_file, dest_file):
     table = pv.read_csv(src_file)
     pq.write_table(table, dest_file)
 
-FHV_URL_PREFIX = 'https://d37ci6vzurychx.cloudfront.net/trip-data'
-FHV_URL_TEMPLATE = FHV_URL_PREFIX + '/fhv_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
-FHV_OUTPUT_TEMPLATE = AIRFLOW_HOME + '/output_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
-FHV_TABLE_TEMPLATE = 'fhv_tripdata_{{ execution_date.strftime(\'%Y_%m\') }}'
-
+ZONE_URL_TEMPLATE = 'https://d37ci6vzurychx.cloudfront.net/misc/taxi+_zone_lookup.csv'
+ZONE_CSV_TEMPLATE = AIRFLOW_HOME + '/output_{{ execution_date.strftime(\'%Y-%m\') }}.csv'
+ZONE_PARQUET_TEMPLATE = AIRFLOW_HOME + '/output_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
+ZONE_TABLE_TEMPLATE = 'taxi_zone_lookup'
 
 with DAG(
-    dag_id="FHV_data_to_gcp_dag",
-    schedule_interval="0 6 2 * *",
-    start_date=datetime(2019, 1, 1),
-    end_date=datetime(2019, 12, 31),
+    dag_id="zone_data_to_gcp_dag",
     default_args=default_args,
-    catchup=True,
-    max_active_runs=3
+    start_date=datetime(2019, 1, 1),
+    schedule_interval='@once',
+    catchup=True
 ) as dag:
     
     download_dataset_task = BashOperator(
         task_id="download_dataset_task",
-        bash_command=f'curl -sSLf {FHV_URL_TEMPLATE} > {FHV_OUTPUT_TEMPLATE}'
+        bash_command=f'curl -sSLf {ZONE_URL_TEMPLATE} > {ZONE_CSV_TEMPLATE}'
+    )
+
+    parquetize_task = PythonOperator(
+        task_id="parquetize_file_task",
+        python_callable=format_to_parquet,
+        op_kwargs={
+            'src_file': ZONE_CSV_TEMPLATE,
+            'dest_file': ZONE_PARQUET_TEMPLATE
+        }
     )
 
     local_to_gcp_task = PythonOperator(
@@ -64,10 +70,9 @@ with DAG(
         python_callable=upload_to_gcs,
         op_kwargs=dict(
             bucket=BUCKET,
-            object_name="raw/fhv_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet",
-            local_file=FHV_OUTPUT_TEMPLATE
+            object_name="raw/taxi_zone/taxi_zone_lookup.parquet",
+            local_file=ZONE_PARQUET_TEMPLATE
         )
     )
 
-    download_dataset_task >> local_to_gcp_task
-
+    download_dataset_task >> parquetize_task >> local_to_gcp_task
