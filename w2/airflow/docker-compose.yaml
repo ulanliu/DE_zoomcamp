@@ -53,23 +53,25 @@ x-airflow-common:
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
     # For backward compatibility, with Airflow <2.3
     AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
-    # AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
-    # AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+    AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
     AIRFLOW__CORE__FERNET_KEY: ''
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth'
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    # For uploading data to GCP
     GOOGLE_APPLICATION_CREDENTIALS: /.google/credentials/google_credentials.json
     AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=/.google/credentials/google_credentials.json'
     GCP_PROJECT_ID: 'dtc-de-course-368906'
-    GCP_GCS_BUCKET: 'dtc_data_lake_dtc-de-course-368906'
+    GCP_GCS_BUCKET: 'my_nyc_tlc'
 
-    PG_HOST: "${PG_HOST}"
-    PG_USER: "${PG_USER}"
-    PG_PASSWORD: "${PG_PASSWORD}"
-    PG_PORT: "${PG_PORT}"
-    PG_DATABASE: "${PG_DATABASE}"
+    # For uploading data to local postgres
+    # PG_HOST: "${PG_HOST}"
+    # PG_USER: "${PG_USER}"
+    # PG_PASSWORD: "${PG_PASSWORD}"
+    # PG_PORT: "${PG_PORT}"
+    # PG_DATABASE: "${PG_DATABASE}"
 
   volumes:
     - ./dags:/opt/airflow/dags
