@@ -1,0 +1,23 @@
+[2022-12-02 03:54:39,888] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: FHV_data_upload_dag.local_to_gcp_task scheduled__2019-08-02T06:00:00+00:00 [queued]>
+[2022-12-02 03:54:39,917] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: FHV_data_upload_dag.local_to_gcp_task scheduled__2019-08-02T06:00:00+00:00 [queued]>
+[2022-12-02 03:54:39,918] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-02 03:54:39,919] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-12-02 03:54:39,919] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-02 03:54:39,948] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcp_task> on 2019-08-02 06:00:00+00:00
+[2022-12-02 03:54:39,956] {standard_task_runner.py:52} INFO - Started process 2635 to run task
+[2022-12-02 03:54:39,963] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'FHV_data_upload_dag', 'local_to_gcp_task', 'scheduled__2019-08-02T06:00:00+00:00', '--job-id', '308', '--raw', '--subdir', 'DAGS_FOLDER/FHV_data_upload_dag.py', '--cfg-path', '/tmp/tmp9klx4j3h', '--error-file', '/tmp/tmpnnp_q416']
+[2022-12-02 03:54:39,965] {standard_task_runner.py:77} INFO - Job 308: Subtask local_to_gcp_task
+[2022-12-02 03:54:40,079] {logging_mixin.py:109} INFO - Running <TaskInstance: FHV_data_upload_dag.local_to_gcp_task scheduled__2019-08-02T06:00:00+00:00 [running]> on host abdcba3d233e
+[2022-12-02 03:54:40,208] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-12-02 03:54:40,264] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=FHV_data_upload_dag
+AIRFLOW_CTX_TASK_ID=local_to_gcp_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-08-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-08-02T06:00:00+00:00
+[2022-12-02 03:54:45,063] {python.py:175} INFO - Done. Returned value was: None
+[2022-12-02 03:54:45,090] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=FHV_data_upload_dag, task_id=local_to_gcp_task, execution_date=20190802T060000, start_date=20221202T035439, end_date=20221202T035445
+[2022-12-02 03:54:45,168] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-02 03:54:45,226] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

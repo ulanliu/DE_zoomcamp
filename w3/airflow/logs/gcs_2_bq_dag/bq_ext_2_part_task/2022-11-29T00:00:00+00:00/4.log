@@ -1,0 +1,112 @@
+[2022-11-30 15:29:44,750] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_ext_2_part_task scheduled__2022-11-29T00:00:00+00:00 [queued]>
+[2022-11-30 15:29:44,806] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_ext_2_part_task scheduled__2022-11-29T00:00:00+00:00 [queued]>
+[2022-11-30 15:29:44,808] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-30 15:29:44,809] {taskinstance.py:1239} INFO - Starting attempt 4 of 5
+[2022-11-30 15:29:44,810] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-30 15:29:44,864] {taskinstance.py:1259} INFO - Executing <Task(BigQueryInsertJobOperator): bq_ext_2_part_task> on 2022-11-29 00:00:00+00:00
+[2022-11-30 15:29:44,875] {standard_task_runner.py:52} INFO - Started process 1822 to run task
+[2022-11-30 15:29:44,885] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_ext_2_part_task', 'scheduled__2022-11-29T00:00:00+00:00', '--job-id', '275', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_yellow_dag.py', '--cfg-path', '/tmp/tmpqsa_jg59', '--error-file', '/tmp/tmpya5us0nj']
+[2022-11-30 15:29:44,888] {standard_task_runner.py:77} INFO - Job 275: Subtask bq_ext_2_part_task
+[2022-11-30 15:29:45,058] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_ext_2_part_task scheduled__2022-11-29T00:00:00+00:00 [running]> on host abdcba3d233e
+[2022-11-30 15:29:45,246] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_ext_2_part_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-29T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-29T00:00:00+00:00
+[2022-11-30 15:29:45,252] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-11-30 15:29:45,288] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-11-30 15:29:45,360] {bigquery.py:1637} INFO - Inserting job ***_gcs_2_bq_dag_bq_ext_2_part_task_2022_11_29T00_00_00_00_00_290f3cdabd275d928245400f83903835
+[2022-11-30 15:29:47,994] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2287, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2253, in _submit_job
+    job_id=job_id,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1639, in insert_job
+    job.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1447, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1437, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 727, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 135, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Error while reading table: trips_data_all.external_yellow_tripdata, error message: Parquet column 'airport_fee' has type INT32 which does not match the target cpp_type DOUBLE. File: gs://my_nyc_tlc/yellow/2019-12.parquet
+
+(job ID: airflow_gcs_2_bq_dag_bq_ext_2_part_task_2022_11_29T00_00_00_00_00_290f3cdabd275d928245400f83903835)
+
+                       -----Query Job SQL Follows-----                        
+
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+   1:
+   2:        CREATE OR REPLACE TABLE trips_data_all.yellow_tripdata_partitoned
+   3:        PARTITION BY DATE(tpep_pickup_datetime) AS
+   4:        SELECT * FROM trips_data_all.external_yellow_tripdata;
+   5:        
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+[2022-11-30 15:29:48,058] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=gcs_2_bq_dag, task_id=bq_ext_2_part_task, execution_date=20221129T000000, start_date=20221130T152944, end_date=20221130T152948
+[2022-11-30 15:29:48,125] {standard_task_runner.py:92} ERROR - Failed to execute job 275 for task bq_ext_2_part_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2287, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2253, in _submit_job
+    job_id=job_id,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1639, in insert_job
+    job.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1447, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1437, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 727, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 135, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Error while reading table: trips_data_all.external_yellow_tripdata, error message: Parquet column 'airport_fee' has type INT32 which does not match the target cpp_type DOUBLE. File: gs://my_nyc_tlc/yellow/2019-12.parquet
+
+(job ID: airflow_gcs_2_bq_dag_bq_ext_2_part_task_2022_11_29T00_00_00_00_00_290f3cdabd275d928245400f83903835)
+
+                       -----Query Job SQL Follows-----                        
+
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+   1:
+   2:        CREATE OR REPLACE TABLE trips_data_all.yellow_tripdata_partitoned
+   3:        PARTITION BY DATE(tpep_pickup_datetime) AS
+   4:        SELECT * FROM trips_data_all.external_yellow_tripdata;
+   5:        
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+[2022-11-30 15:29:48,155] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-11-30 15:29:48,392] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

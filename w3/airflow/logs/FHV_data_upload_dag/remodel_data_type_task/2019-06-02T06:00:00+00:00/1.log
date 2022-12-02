@@ -1,0 +1,23 @@
+[2022-12-02 03:53:53,318] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: FHV_data_upload_dag.remodel_data_type_task scheduled__2019-06-02T06:00:00+00:00 [queued]>
+[2022-12-02 03:53:53,371] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: FHV_data_upload_dag.remodel_data_type_task scheduled__2019-06-02T06:00:00+00:00 [queued]>
+[2022-12-02 03:53:53,375] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-02 03:53:53,376] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-12-02 03:53:53,377] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-02 03:53:53,448] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): remodel_data_type_task> on 2019-06-02 06:00:00+00:00
+[2022-12-02 03:53:53,465] {standard_task_runner.py:52} INFO - Started process 2438 to run task
+[2022-12-02 03:53:53,475] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'FHV_data_upload_dag', 'remodel_data_type_task', 'scheduled__2019-06-02T06:00:00+00:00', '--job-id', '300', '--raw', '--subdir', 'DAGS_FOLDER/FHV_data_upload_dag.py', '--cfg-path', '/tmp/tmp55jvrsr6', '--error-file', '/tmp/tmpmx4lcj13']
+[2022-12-02 03:53:53,478] {standard_task_runner.py:77} INFO - Job 300: Subtask remodel_data_type_task
+[2022-12-02 03:53:53,852] {logging_mixin.py:109} INFO - Running <TaskInstance: FHV_data_upload_dag.remodel_data_type_task scheduled__2019-06-02T06:00:00+00:00 [running]> on host abdcba3d233e
+[2022-12-02 03:53:54,133] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-12-02 03:53:54,249] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=FHV_data_upload_dag
+AIRFLOW_CTX_TASK_ID=remodel_data_type_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-02T06:00:00+00:00
+[2022-12-02 03:54:01,952] {python.py:175} INFO - Done. Returned value was: None
+[2022-12-02 03:54:01,995] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=FHV_data_upload_dag, task_id=remodel_data_type_task, execution_date=20190602T060000, start_date=20221202T035353, end_date=20221202T035401
+[2022-12-02 03:54:02,251] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-02 03:54:02,346] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,90 @@
+[2022-12-02 03:54:29,973] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: FHV_data_upload_dag.remodel_data_type_task scheduled__2019-09-02T06:00:00+00:00 [queued]>
+[2022-12-02 03:54:30,009] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: FHV_data_upload_dag.remodel_data_type_task scheduled__2019-09-02T06:00:00+00:00 [queued]>
+[2022-12-02 03:54:30,010] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-02 03:54:30,010] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-12-02 03:54:30,011] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-02 03:54:30,043] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): remodel_data_type_task> on 2019-09-02 06:00:00+00:00
+[2022-12-02 03:54:30,052] {standard_task_runner.py:52} INFO - Started process 2587 to run task
+[2022-12-02 03:54:30,060] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'FHV_data_upload_dag', 'remodel_data_type_task', 'scheduled__2019-09-02T06:00:00+00:00', '--job-id', '307', '--raw', '--subdir', 'DAGS_FOLDER/FHV_data_upload_dag.py', '--cfg-path', '/tmp/tmpyyh53sa5', '--error-file', '/tmp/tmpjc06onfs']
+[2022-12-02 03:54:30,062] {standard_task_runner.py:77} INFO - Job 307: Subtask remodel_data_type_task
+[2022-12-02 03:54:30,183] {logging_mixin.py:109} INFO - Running <TaskInstance: FHV_data_upload_dag.remodel_data_type_task scheduled__2019-09-02T06:00:00+00:00 [running]> on host abdcba3d233e
+[2022-12-02 03:54:30,345] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-12-02 03:54:30,424] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=FHV_data_upload_dag
+AIRFLOW_CTX_TASK_ID=remodel_data_type_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-09-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-09-02T06:00:00+00:00
+[2022-12-02 03:54:31,970] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/FHV_data_upload_dag.py", line 44, in remodel_parquet_data_type
+    df = pd.read_parquet(src_file, engine='pyarrow')
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parquet.py", line 500, in read_parquet
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parquet.py", line 241, in read
+    ).to_pandas(**to_pandas_kwargs)
+  File "pyarrow/array.pxi", line 757, in pyarrow.lib._PandasConvertible.to_pandas
+  File "pyarrow/table.pxi", line 1748, in pyarrow.lib.Table._to_pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/pandas_compat.py", line 789, in table_to_blockmanager
+    blocks = _table_to_blocks(options, table, categories, ext_columns_dtypes)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/pandas_compat.py", line 1129, in _table_to_blocks
+    list(extension_columns.keys()))
+  File "pyarrow/table.pxi", line 1156, in pyarrow.lib.table_to_blocks
+  File "pyarrow/error.pxi", line 99, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: Casting from timestamp[us] to timestamp[ns] would result in out of bounds timestamp: 33124408344000000
+[2022-12-02 03:54:32,020] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=FHV_data_upload_dag, task_id=remodel_data_type_task, execution_date=20190902T060000, start_date=20221202T035429, end_date=20221202T035432
+[2022-12-02 03:54:32,068] {standard_task_runner.py:92} ERROR - Failed to execute job 307 for task remodel_data_type_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/FHV_data_upload_dag.py", line 44, in remodel_parquet_data_type
+    df = pd.read_parquet(src_file, engine='pyarrow')
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parquet.py", line 500, in read_parquet
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parquet.py", line 241, in read
+    ).to_pandas(**to_pandas_kwargs)
+  File "pyarrow/array.pxi", line 757, in pyarrow.lib._PandasConvertible.to_pandas
+  File "pyarrow/table.pxi", line 1748, in pyarrow.lib.Table._to_pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/pandas_compat.py", line 789, in table_to_blockmanager
+    blocks = _table_to_blocks(options, table, categories, ext_columns_dtypes)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/pandas_compat.py", line 1129, in _table_to_blocks
+    list(extension_columns.keys()))
+  File "pyarrow/table.pxi", line 1156, in pyarrow.lib.table_to_blocks
+  File "pyarrow/error.pxi", line 99, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: Casting from timestamp[us] to timestamp[ns] would result in out of bounds timestamp: 33124408344000000
+[2022-12-02 03:54:32,121] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-12-02 03:54:32,220] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,100 @@
+[2022-11-30 15:27:31,867] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_ext_2_part_task scheduled__2022-11-29T00:00:00+00:00 [queued]>
+[2022-11-30 15:27:31,914] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_ext_2_part_task scheduled__2022-11-29T00:00:00+00:00 [queued]>
+[2022-11-30 15:27:31,915] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-30 15:27:31,916] {taskinstance.py:1239} INFO - Starting attempt 3 of 3
+[2022-11-30 15:27:31,917] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-30 15:27:31,973] {taskinstance.py:1259} INFO - Executing <Task(BigQueryInsertJobOperator): bq_ext_2_part_task> on 2022-11-29 00:00:00+00:00
+[2022-11-30 15:27:31,984] {standard_task_runner.py:52} INFO - Started process 1662 to run task
+[2022-11-30 15:27:32,003] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_ext_2_part_task', 'scheduled__2022-11-29T00:00:00+00:00', '--job-id', '274', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_yellow_dag.py', '--cfg-path', '/tmp/tmp9f_i2ghq', '--error-file', '/tmp/tmpwny9c92d']
+[2022-11-30 15:27:32,006] {standard_task_runner.py:77} INFO - Job 274: Subtask bq_ext_2_part_task
+[2022-11-30 15:27:32,155] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_ext_2_part_task scheduled__2022-11-29T00:00:00+00:00 [running]> on host abdcba3d233e
+[2022-11-30 15:27:32,331] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_ext_2_part_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-29T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-29T00:00:00+00:00
+[2022-11-30 15:27:32,336] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-11-30 15:27:32,373] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-11-30 15:27:32,445] {bigquery.py:1637} INFO - Inserting job ***_gcs_2_bq_dag_bq_ext_2_part_task_2022_11_29T00_00_00_00_00_139b8a6c0b85eae5b1893525b0885b59
+[2022-11-30 15:27:32,447] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2287, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2253, in _submit_job
+    job_id=job_id,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1639, in insert_job
+    job.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1447, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1437, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 724, in result
+    self._begin(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1249, in _begin
+    super(QueryJob, self)._begin(client=client, retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 516, in _begin
+    data=self.to_api_repr(),
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 908, in to_api_repr
+    configuration = self._configuration.to_api_repr()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 680, in to_api_repr
+    query_parameters = resource["query"].get("queryParameters")
+AttributeError: 'str' object has no attribute 'get'
+[2022-11-30 15:27:32,500] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=gcs_2_bq_dag, task_id=bq_ext_2_part_task, execution_date=20221129T000000, start_date=20221130T152731, end_date=20221130T152732
+[2022-11-30 15:27:32,552] {standard_task_runner.py:92} ERROR - Failed to execute job 274 for task bq_ext_2_part_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2287, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2253, in _submit_job
+    job_id=job_id,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1639, in insert_job
+    job.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1447, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1437, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 724, in result
+    self._begin(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1249, in _begin
+    super(QueryJob, self)._begin(client=client, retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 516, in _begin
+    data=self.to_api_repr(),
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 908, in to_api_repr
+    configuration = self._configuration.to_api_repr()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 680, in to_api_repr
+    query_parameters = resource["query"].get("queryParameters")
+AttributeError: 'str' object has no attribute 'get'
+[2022-11-30 15:27:32,610] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-11-30 15:27:32,713] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,1098 @@
+[2022-12-02 03:36:49,508] {processor.py:163} INFO - Started process (PID=243) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:36:49,511] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:36:49,514] {logging_mixin.py:109} INFO - [2022-12-02 03:36:49,514] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:36:52,064] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:36:52,786] {logging_mixin.py:109} INFO - [2022-12-02 03:36:52,784] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:36:52,882] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.381 seconds
+[2022-12-02 03:37:23,268] {processor.py:163} INFO - Started process (PID=306) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:37:23,274] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:37:23,277] {logging_mixin.py:109} INFO - [2022-12-02 03:37:23,277] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:37:26,637] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:37:26,694] {logging_mixin.py:109} INFO - [2022-12-02 03:37:26,690] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:37:26,805] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.546 seconds
+[2022-12-02 03:37:57,113] {processor.py:163} INFO - Started process (PID=373) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:37:57,115] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:37:57,117] {logging_mixin.py:109} INFO - [2022-12-02 03:37:57,116] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:37:59,183] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:37:59,208] {logging_mixin.py:109} INFO - [2022-12-02 03:37:59,207] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:37:59,260] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.151 seconds
+[2022-12-02 03:38:29,588] {processor.py:163} INFO - Started process (PID=435) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:38:29,591] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:38:29,594] {logging_mixin.py:109} INFO - [2022-12-02 03:38:29,593] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:38:31,920] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:38:31,947] {logging_mixin.py:109} INFO - [2022-12-02 03:38:31,946] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:38:32,001] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.418 seconds
+[2022-12-02 03:39:02,265] {processor.py:163} INFO - Started process (PID=497) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:39:02,267] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:39:02,269] {logging_mixin.py:109} INFO - [2022-12-02 03:39:02,269] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:39:04,352] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:39:04,396] {logging_mixin.py:109} INFO - [2022-12-02 03:39:04,395] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:39:04,489] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.230 seconds
+[2022-12-02 03:39:34,936] {processor.py:163} INFO - Started process (PID=559) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:39:34,940] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:39:34,941] {logging_mixin.py:109} INFO - [2022-12-02 03:39:34,941] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:39:36,855] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:39:36,881] {logging_mixin.py:109} INFO - [2022-12-02 03:39:36,880] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:39:36,932] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.001 seconds
+[2022-12-02 03:40:07,352] {processor.py:163} INFO - Started process (PID=621) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:40:07,356] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:40:07,358] {logging_mixin.py:109} INFO - [2022-12-02 03:40:07,357] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:40:09,487] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:40:09,514] {logging_mixin.py:109} INFO - [2022-12-02 03:40:09,513] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:40:09,651] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.305 seconds
+[2022-12-02 03:40:39,841] {processor.py:163} INFO - Started process (PID=669) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:40:39,845] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:40:39,847] {logging_mixin.py:109} INFO - [2022-12-02 03:40:39,847] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:40:41,764] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:40:41,788] {logging_mixin.py:109} INFO - [2022-12-02 03:40:41,788] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:40:41,923] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.086 seconds
+[2022-12-02 03:41:11,986] {processor.py:163} INFO - Started process (PID=731) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:41:11,989] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:41:11,990] {logging_mixin.py:109} INFO - [2022-12-02 03:41:11,990] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:41:13,930] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:41:13,956] {logging_mixin.py:109} INFO - [2022-12-02 03:41:13,955] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:41:14,100] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.119 seconds
+[2022-12-02 03:41:44,220] {processor.py:163} INFO - Started process (PID=792) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:41:44,222] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:41:44,224] {logging_mixin.py:109} INFO - [2022-12-02 03:41:44,224] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:41:46,154] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:41:46,178] {logging_mixin.py:109} INFO - [2022-12-02 03:41:46,177] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:41:46,299] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.084 seconds
+[2022-12-02 03:42:16,884] {processor.py:163} INFO - Started process (PID=854) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:42:16,889] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:42:16,891] {logging_mixin.py:109} INFO - [2022-12-02 03:42:16,891] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:42:18,849] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:42:18,877] {logging_mixin.py:109} INFO - [2022-12-02 03:42:18,876] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:42:19,012] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.137 seconds
+[2022-12-02 03:42:49,243] {processor.py:163} INFO - Started process (PID=924) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:42:49,246] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:42:49,248] {logging_mixin.py:109} INFO - [2022-12-02 03:42:49,248] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:42:51,327] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:42:51,436] {logging_mixin.py:109} INFO - [2022-12-02 03:42:51,435] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:42:51,492] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.254 seconds
+[2022-12-02 03:43:21,854] {processor.py:163} INFO - Started process (PID=1074) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:43:21,860] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:43:21,867] {logging_mixin.py:109} INFO - [2022-12-02 03:43:21,867] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:43:25,673] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:43:25,807] {logging_mixin.py:109} INFO - [2022-12-02 03:43:25,806] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:43:25,873] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.025 seconds
+[2022-12-02 03:43:56,404] {processor.py:163} INFO - Started process (PID=1140) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:43:56,407] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:43:56,409] {logging_mixin.py:109} INFO - [2022-12-02 03:43:56,408] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:44:00,773] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:44:00,801] {logging_mixin.py:109} INFO - [2022-12-02 03:44:00,801] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:44:00,875] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.476 seconds
+[2022-12-02 03:44:30,997] {processor.py:163} INFO - Started process (PID=1194) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:44:31,000] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:44:31,002] {logging_mixin.py:109} INFO - [2022-12-02 03:44:31,002] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:44:33,317] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:44:33,343] {logging_mixin.py:109} INFO - [2022-12-02 03:44:33,342] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:44:33,399] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.408 seconds
+[2022-12-02 03:45:03,705] {processor.py:163} INFO - Started process (PID=1256) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:45:03,708] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:45:03,709] {logging_mixin.py:109} INFO - [2022-12-02 03:45:03,709] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:45:05,951] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:45:05,978] {logging_mixin.py:109} INFO - [2022-12-02 03:45:05,976] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:45:06,034] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.335 seconds
+[2022-12-02 03:45:36,124] {processor.py:163} INFO - Started process (PID=1318) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:45:36,127] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:45:36,128] {logging_mixin.py:109} INFO - [2022-12-02 03:45:36,128] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:45:38,216] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:45:38,239] {logging_mixin.py:109} INFO - [2022-12-02 03:45:38,239] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:45:38,287] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.169 seconds
+[2022-12-02 03:46:08,500] {processor.py:163} INFO - Started process (PID=1380) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:46:08,502] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:46:08,503] {logging_mixin.py:109} INFO - [2022-12-02 03:46:08,503] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:46:10,491] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:46:10,536] {logging_mixin.py:109} INFO - [2022-12-02 03:46:10,535] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:46:10,628] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.133 seconds
+[2022-12-02 03:46:40,743] {processor.py:163} INFO - Started process (PID=1450) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:46:40,745] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:46:40,747] {logging_mixin.py:109} INFO - [2022-12-02 03:46:40,746] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:46:43,212] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:46:43,235] {logging_mixin.py:109} INFO - [2022-12-02 03:46:43,235] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:46:43,285] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.547 seconds
+[2022-12-02 03:47:13,795] {processor.py:163} INFO - Started process (PID=1534) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:47:13,798] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:47:13,799] {logging_mixin.py:109} INFO - [2022-12-02 03:47:13,799] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:47:16,049] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:47:16,073] {logging_mixin.py:109} INFO - [2022-12-02 03:47:16,073] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:47:16,125] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.334 seconds
+[2022-12-02 03:47:46,311] {processor.py:163} INFO - Started process (PID=1609) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:47:46,314] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:47:46,316] {logging_mixin.py:109} INFO - [2022-12-02 03:47:46,315] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:47:48,282] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:47:48,306] {logging_mixin.py:109} INFO - [2022-12-02 03:47:48,305] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:47:48,354] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.048 seconds
+[2022-12-02 03:48:18,722] {processor.py:163} INFO - Started process (PID=1671) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:48:18,725] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:48:18,726] {logging_mixin.py:109} INFO - [2022-12-02 03:48:18,726] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:48:20,877] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:48:20,901] {logging_mixin.py:109} INFO - [2022-12-02 03:48:20,900] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:48:20,950] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.233 seconds
+[2022-12-02 03:48:51,159] {processor.py:163} INFO - Started process (PID=1771) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:48:51,162] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:48:51,164] {logging_mixin.py:109} INFO - [2022-12-02 03:48:51,164] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:48:53,379] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:48:53,402] {logging_mixin.py:109} INFO - [2022-12-02 03:48:53,401] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:48:53,453] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.301 seconds
+[2022-12-02 03:49:23,811] {processor.py:163} INFO - Started process (PID=1827) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:49:23,814] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:49:23,815] {logging_mixin.py:109} INFO - [2022-12-02 03:49:23,815] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:49:25,873] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:49:25,897] {logging_mixin.py:109} INFO - [2022-12-02 03:49:25,896] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:49:25,951] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.145 seconds
+[2022-12-02 03:49:56,426] {processor.py:163} INFO - Started process (PID=1879) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:49:56,430] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:49:56,432] {logging_mixin.py:109} INFO - [2022-12-02 03:49:56,432] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:49:58,377] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:49:58,400] {logging_mixin.py:109} INFO - [2022-12-02 03:49:58,400] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:49:58,452] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.035 seconds
+[2022-12-02 03:50:28,883] {processor.py:163} INFO - Started process (PID=1941) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:50:28,886] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:50:28,887] {logging_mixin.py:109} INFO - [2022-12-02 03:50:28,887] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:50:30,781] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:50:30,803] {logging_mixin.py:109} INFO - [2022-12-02 03:50:30,802] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:50:30,854] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 1.976 seconds
+[2022-12-02 03:51:01,357] {processor.py:163} INFO - Started process (PID=2003) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:51:01,361] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:51:01,363] {logging_mixin.py:109} INFO - [2022-12-02 03:51:01,363] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:51:03,321] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:51:03,345] {logging_mixin.py:109} INFO - [2022-12-02 03:51:03,344] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:51:03,394] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.044 seconds
+[2022-12-02 03:51:33,755] {processor.py:163} INFO - Started process (PID=2065) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:51:33,758] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:51:33,760] {logging_mixin.py:109} INFO - [2022-12-02 03:51:33,760] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:51:35,856] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:51:35,880] {logging_mixin.py:109} INFO - [2022-12-02 03:51:35,879] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:51:35,930] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.181 seconds
+[2022-12-02 03:52:06,049] {processor.py:163} INFO - Started process (PID=2127) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:52:06,051] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:52:06,053] {logging_mixin.py:109} INFO - [2022-12-02 03:52:06,053] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:52:08,161] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:52:08,185] {logging_mixin.py:109} INFO - [2022-12-02 03:52:08,184] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:52:08,234] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.191 seconds
+[2022-12-02 03:52:38,410] {processor.py:163} INFO - Started process (PID=2190) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:52:38,413] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:52:38,415] {logging_mixin.py:109} INFO - [2022-12-02 03:52:38,415] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:52:40,553] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:52:40,579] {logging_mixin.py:109} INFO - [2022-12-02 03:52:40,579] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:52:40,631] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.228 seconds
+[2022-12-02 03:53:11,064] {processor.py:163} INFO - Started process (PID=2252) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:53:11,068] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:53:11,071] {logging_mixin.py:109} INFO - [2022-12-02 03:53:11,071] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:53:13,384] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:53:13,411] {logging_mixin.py:109} INFO - [2022-12-02 03:53:13,410] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:53:13,468] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.410 seconds
+[2022-12-02 03:53:43,758] {processor.py:163} INFO - Started process (PID=2367) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:53:43,766] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:53:43,768] {logging_mixin.py:109} INFO - [2022-12-02 03:53:43,768] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:53:48,465] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:53:48,521] {logging_mixin.py:109} INFO - [2022-12-02 03:53:48,520] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:53:48,704] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.957 seconds
+[2022-12-02 03:54:19,075] {processor.py:163} INFO - Started process (PID=2511) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:54:19,081] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:54:19,084] {logging_mixin.py:109} INFO - [2022-12-02 03:54:19,083] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:54:23,688] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:54:23,774] {logging_mixin.py:109} INFO - [2022-12-02 03:54:23,770] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:54:23,920] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.850 seconds
+[2022-12-02 03:54:54,280] {processor.py:163} INFO - Started process (PID=2637) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:54:54,284] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:54:54,287] {logging_mixin.py:109} INFO - [2022-12-02 03:54:54,286] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:54:56,655] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:54:56,680] {logging_mixin.py:109} INFO - [2022-12-02 03:54:56,679] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:54:56,731] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.459 seconds
+[2022-12-02 03:55:27,029] {processor.py:163} INFO - Started process (PID=2740) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:55:27,032] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:55:27,033] {logging_mixin.py:109} INFO - [2022-12-02 03:55:27,033] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:55:29,249] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:55:29,273] {logging_mixin.py:109} INFO - [2022-12-02 03:55:29,273] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:55:29,324] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.300 seconds
+[2022-12-02 03:55:59,490] {processor.py:163} INFO - Started process (PID=2842) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:55:59,494] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:55:59,496] {logging_mixin.py:109} INFO - [2022-12-02 03:55:59,495] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:56:01,768] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:56:01,792] {logging_mixin.py:109} INFO - [2022-12-02 03:56:01,792] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:56:01,844] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.359 seconds
+[2022-12-02 03:56:32,082] {processor.py:163} INFO - Started process (PID=2944) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:56:32,085] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:56:32,087] {logging_mixin.py:109} INFO - [2022-12-02 03:56:32,087] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:56:36,135] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:56:36,183] {logging_mixin.py:109} INFO - [2022-12-02 03:56:36,182] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:56:36,289] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.214 seconds
+[2022-12-02 03:57:07,157] {processor.py:163} INFO - Started process (PID=3008) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:57:07,162] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:57:07,164] {logging_mixin.py:109} INFO - [2022-12-02 03:57:07,164] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:57:11,625] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:57:11,668] {logging_mixin.py:109} INFO - [2022-12-02 03:57:11,667] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:57:11,758] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.613 seconds
+[2022-12-02 03:58:22,568] {processor.py:163} INFO - Started process (PID=3056) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:58:22,580] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:58:22,589] {logging_mixin.py:109} INFO - [2022-12-02 03:58:22,588] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:58:34,583] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:58:34,726] {logging_mixin.py:109} INFO - [2022-12-02 03:58:34,722] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:58:34,989] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 12.448 seconds
+[2022-12-02 03:59:05,612] {processor.py:163} INFO - Started process (PID=3129) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:59:05,614] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 03:59:05,616] {logging_mixin.py:109} INFO - [2022-12-02 03:59:05,616] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:59:07,703] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 03:59:07,728] {logging_mixin.py:109} INFO - [2022-12-02 03:59:07,727] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 03:59:07,779] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 2.172 seconds
+[2022-12-02 04:14:46,427] {processor.py:163} INFO - Started process (PID=3170) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 04:14:46,432] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 04:14:46,436] {logging_mixin.py:109} INFO - [2022-12-02 04:14:46,435] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 04:14:50,644] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 04:14:50,689] {logging_mixin.py:109} INFO - [2022-12-02 04:14:50,688] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 04:14:50,832] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.422 seconds
+[2022-12-02 04:32:12,363] {processor.py:163} INFO - Started process (PID=3233) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 04:32:12,371] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 04:32:12,374] {logging_mixin.py:109} INFO - [2022-12-02 04:32:12,372] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 04:32:16,664] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 04:32:16,712] {logging_mixin.py:109} INFO - [2022-12-02 04:32:16,711] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 04:32:16,785] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.432 seconds
+[2022-12-02 04:49:58,315] {processor.py:163} INFO - Started process (PID=3279) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 04:49:58,318] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 04:49:58,320] {logging_mixin.py:109} INFO - [2022-12-02 04:49:58,320] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 04:50:01,931] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 04:50:02,009] {logging_mixin.py:109} INFO - [2022-12-02 04:50:02,008] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 04:50:02,161] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.850 seconds
+[2022-12-02 05:06:56,958] {processor.py:163} INFO - Started process (PID=3341) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:06:56,964] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:06:56,966] {logging_mixin.py:109} INFO - [2022-12-02 05:06:56,966] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:07:00,384] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:07:00,436] {logging_mixin.py:109} INFO - [2022-12-02 05:07:00,435] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:07:00,547] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.600 seconds
+[2022-12-02 05:07:42,081] {processor.py:163} INFO - Started process (PID=3404) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:07:42,100] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:07:42,110] {logging_mixin.py:109} INFO - [2022-12-02 05:07:42,109] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:07:47,092] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:07:47,190] {logging_mixin.py:109} INFO - [2022-12-02 05:07:47,183] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:07:47,300] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 5.245 seconds
+[2022-12-02 05:15:14,077] {processor.py:163} INFO - Started process (PID=3454) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:15:14,085] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:15:14,090] {logging_mixin.py:109} INFO - [2022-12-02 05:15:14,089] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:15:22,125] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:15:22,242] {logging_mixin.py:109} INFO - [2022-12-02 05:15:22,241] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:15:22,497] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 8.452 seconds
+[2022-12-02 05:17:03,389] {processor.py:163} INFO - Started process (PID=3513) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:17:03,398] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:17:03,406] {logging_mixin.py:109} INFO - [2022-12-02 05:17:03,405] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:17:13,216] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:17:13,344] {logging_mixin.py:109} INFO - [2022-12-02 05:17:13,342] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:17:13,726] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 10.363 seconds
+[2022-12-02 05:17:44,483] {processor.py:163} INFO - Started process (PID=3584) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:17:44,493] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:17:44,501] {logging_mixin.py:109} INFO - [2022-12-02 05:17:44,501] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:17:53,575] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:17:53,669] {logging_mixin.py:109} INFO - [2022-12-02 05:17:53,668] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:17:53,880] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 9.422 seconds
+[2022-12-02 05:18:24,569] {processor.py:163} INFO - Started process (PID=3645) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:18:24,585] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:18:24,596] {logging_mixin.py:109} INFO - [2022-12-02 05:18:24,595] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:18:29,579] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:18:29,627] {logging_mixin.py:109} INFO - [2022-12-02 05:18:29,625] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:18:29,730] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 5.177 seconds
+[2022-12-02 05:19:00,040] {processor.py:163} INFO - Started process (PID=3693) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:19:00,045] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:19:00,047] {logging_mixin.py:109} INFO - [2022-12-02 05:19:00,047] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:19:03,416] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:19:03,455] {logging_mixin.py:109} INFO - [2022-12-02 05:19:03,454] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:19:03,547] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.516 seconds
+[2022-12-02 05:19:34,072] {processor.py:163} INFO - Started process (PID=3788) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:19:34,078] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:19:34,083] {logging_mixin.py:109} INFO - [2022-12-02 05:19:34,082] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:19:40,061] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:19:40,100] {logging_mixin.py:109} INFO - [2022-12-02 05:19:40,099] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:19:40,180] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 6.120 seconds
+[2022-12-02 05:20:10,703] {processor.py:163} INFO - Started process (PID=3855) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:20:10,707] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:20:10,709] {logging_mixin.py:109} INFO - [2022-12-02 05:20:10,709] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:20:14,136] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:20:14,172] {logging_mixin.py:109} INFO - [2022-12-02 05:20:14,171] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:20:14,249] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.555 seconds
+[2022-12-02 05:20:44,330] {processor.py:163} INFO - Started process (PID=3917) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:20:44,334] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:20:44,336] {logging_mixin.py:109} INFO - [2022-12-02 05:20:44,336] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:20:47,697] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:20:47,741] {logging_mixin.py:109} INFO - [2022-12-02 05:20:47,740] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:20:47,819] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.497 seconds
+[2022-12-02 05:21:18,240] {processor.py:163} INFO - Started process (PID=3963) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:21:18,245] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:21:18,248] {logging_mixin.py:109} INFO - [2022-12-02 05:21:18,247] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:21:22,932] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:21:22,995] {logging_mixin.py:109} INFO - [2022-12-02 05:21:22,994] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:21:23,116] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.891 seconds
+[2022-12-02 05:21:53,493] {processor.py:163} INFO - Started process (PID=4025) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:21:53,497] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:21:53,499] {logging_mixin.py:109} INFO - [2022-12-02 05:21:53,499] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:21:56,863] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:21:56,900] {logging_mixin.py:109} INFO - [2022-12-02 05:21:56,899] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:21:56,979] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.494 seconds
+[2022-12-02 05:22:27,901] {processor.py:163} INFO - Started process (PID=4087) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:22:27,906] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:22:27,908] {logging_mixin.py:109} INFO - [2022-12-02 05:22:27,908] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:22:31,559] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:22:31,602] {logging_mixin.py:109} INFO - [2022-12-02 05:22:31,601] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:22:31,693] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.800 seconds
+[2022-12-02 05:23:01,836] {processor.py:163} INFO - Started process (PID=4149) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:23:01,840] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:23:01,843] {logging_mixin.py:109} INFO - [2022-12-02 05:23:01,843] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:23:06,462] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:23:06,527] {logging_mixin.py:109} INFO - [2022-12-02 05:23:06,525] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:23:06,659] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.833 seconds
+[2022-12-02 05:23:37,198] {processor.py:163} INFO - Started process (PID=4195) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:23:37,203] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:23:37,205] {logging_mixin.py:109} INFO - [2022-12-02 05:23:37,205] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:23:40,537] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:23:40,573] {logging_mixin.py:109} INFO - [2022-12-02 05:23:40,572] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:23:40,655] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.464 seconds
+[2022-12-02 05:24:11,086] {processor.py:163} INFO - Started process (PID=4257) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:24:11,090] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:24:11,092] {logging_mixin.py:109} INFO - [2022-12-02 05:24:11,092] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:24:14,454] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:24:14,491] {logging_mixin.py:109} INFO - [2022-12-02 05:24:14,490] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:24:14,573] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.495 seconds
+[2022-12-02 05:24:44,821] {processor.py:163} INFO - Started process (PID=4333) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:24:44,826] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:24:44,828] {logging_mixin.py:109} INFO - [2022-12-02 05:24:44,828] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:24:48,820] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:24:48,874] {logging_mixin.py:109} INFO - [2022-12-02 05:24:48,873] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:24:48,969] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.157 seconds
+[2022-12-02 05:25:19,542] {processor.py:163} INFO - Started process (PID=4380) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:25:19,547] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:25:19,549] {logging_mixin.py:109} INFO - [2022-12-02 05:25:19,549] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:25:23,443] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:25:23,491] {logging_mixin.py:109} INFO - [2022-12-02 05:25:23,490] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:25:23,595] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.062 seconds
+[2022-12-02 05:25:54,035] {processor.py:163} INFO - Started process (PID=4452) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:25:54,040] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:25:54,042] {logging_mixin.py:109} INFO - [2022-12-02 05:25:54,042] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:25:57,698] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:25:57,736] {logging_mixin.py:109} INFO - [2022-12-02 05:25:57,735] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:25:57,820] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.794 seconds
+[2022-12-02 05:26:28,096] {processor.py:163} INFO - Started process (PID=4520) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:26:28,101] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:26:28,104] {logging_mixin.py:109} INFO - [2022-12-02 05:26:28,104] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:26:36,251] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:26:36,372] {logging_mixin.py:109} INFO - [2022-12-02 05:26:36,371] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:26:36,607] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 8.519 seconds
+[2022-12-02 05:27:07,016] {processor.py:163} INFO - Started process (PID=4602) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:27:07,022] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:27:07,024] {logging_mixin.py:109} INFO - [2022-12-02 05:27:07,024] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:27:10,656] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:27:10,705] {logging_mixin.py:109} INFO - [2022-12-02 05:27:10,703] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:27:10,796] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.788 seconds
+[2022-12-02 05:27:41,018] {processor.py:163} INFO - Started process (PID=4658) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:27:41,023] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:27:41,025] {logging_mixin.py:109} INFO - [2022-12-02 05:27:41,025] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:27:45,345] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:27:45,392] {logging_mixin.py:109} INFO - [2022-12-02 05:27:45,391] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:27:45,512] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.503 seconds
+[2022-12-02 05:28:15,740] {processor.py:163} INFO - Started process (PID=4710) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:28:15,745] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:28:15,747] {logging_mixin.py:109} INFO - [2022-12-02 05:28:15,747] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:28:19,321] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:28:19,361] {logging_mixin.py:109} INFO - [2022-12-02 05:28:19,360] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:28:19,447] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.718 seconds
+[2022-12-02 05:28:49,663] {processor.py:163} INFO - Started process (PID=4785) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:28:49,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:28:49,670] {logging_mixin.py:109} INFO - [2022-12-02 05:28:49,669] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:28:53,021] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:28:53,058] {logging_mixin.py:109} INFO - [2022-12-02 05:28:53,057] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:28:53,142] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.488 seconds
+[2022-12-02 05:29:23,559] {processor.py:163} INFO - Started process (PID=4847) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:29:23,563] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:29:23,566] {logging_mixin.py:109} INFO - [2022-12-02 05:29:23,565] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:29:27,987] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:29:28,051] {logging_mixin.py:109} INFO - [2022-12-02 05:29:28,048] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:29:28,175] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.625 seconds
+[2022-12-02 05:29:58,483] {processor.py:163} INFO - Started process (PID=4893) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:29:58,488] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:29:58,490] {logging_mixin.py:109} INFO - [2022-12-02 05:29:58,490] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:30:02,224] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:30:02,274] {logging_mixin.py:109} INFO - [2022-12-02 05:30:02,273] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:30:02,383] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.908 seconds
+[2022-12-02 05:30:33,220] {processor.py:163} INFO - Started process (PID=4954) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:30:33,226] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:30:33,228] {logging_mixin.py:109} INFO - [2022-12-02 05:30:33,228] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:30:36,855] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:30:36,895] {logging_mixin.py:109} INFO - [2022-12-02 05:30:36,894] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:30:36,976] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.766 seconds
+[2022-12-02 05:31:07,581] {processor.py:163} INFO - Started process (PID=5016) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:31:07,586] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:31:07,589] {logging_mixin.py:109} INFO - [2022-12-02 05:31:07,588] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:31:11,426] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:31:11,470] {logging_mixin.py:109} INFO - [2022-12-02 05:31:11,469] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:31:11,556] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.983 seconds
+[2022-12-02 05:31:42,042] {processor.py:163} INFO - Started process (PID=5084) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:31:42,047] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:31:42,050] {logging_mixin.py:109} INFO - [2022-12-02 05:31:42,050] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:31:48,110] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:31:48,217] {logging_mixin.py:109} INFO - [2022-12-02 05:31:48,215] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:31:48,513] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 6.478 seconds
+[2022-12-02 05:32:19,533] {processor.py:163} INFO - Started process (PID=5147) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:32:19,538] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:32:19,541] {logging_mixin.py:109} INFO - [2022-12-02 05:32:19,541] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:32:23,427] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:32:23,469] {logging_mixin.py:109} INFO - [2022-12-02 05:32:23,468] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:32:23,601] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.079 seconds
+[2022-12-02 05:32:53,940] {processor.py:163} INFO - Started process (PID=5222) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:32:53,944] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:32:53,946] {logging_mixin.py:109} INFO - [2022-12-02 05:32:53,946] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:32:57,247] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:32:57,284] {logging_mixin.py:109} INFO - [2022-12-02 05:32:57,283] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:32:57,361] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.428 seconds
+[2022-12-02 05:33:27,517] {processor.py:163} INFO - Started process (PID=5285) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:33:27,521] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:33:27,523] {logging_mixin.py:109} INFO - [2022-12-02 05:33:27,523] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:33:31,481] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:33:31,539] {logging_mixin.py:109} INFO - [2022-12-02 05:33:31,537] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:33:31,649] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.139 seconds
+[2022-12-02 05:34:02,013] {processor.py:163} INFO - Started process (PID=5347) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:34:02,018] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:34:02,021] {logging_mixin.py:109} INFO - [2022-12-02 05:34:02,020] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:34:06,608] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:34:06,653] {logging_mixin.py:109} INFO - [2022-12-02 05:34:06,652] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:34:06,766] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.762 seconds
+[2022-12-02 05:34:36,998] {processor.py:163} INFO - Started process (PID=5393) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:34:37,002] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:34:37,004] {logging_mixin.py:109} INFO - [2022-12-02 05:34:37,004] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:34:40,221] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:34:40,258] {logging_mixin.py:109} INFO - [2022-12-02 05:34:40,257] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:34:40,337] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.345 seconds
+[2022-12-02 05:35:10,777] {processor.py:163} INFO - Started process (PID=5456) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:35:10,781] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:35:10,784] {logging_mixin.py:109} INFO - [2022-12-02 05:35:10,783] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:35:16,043] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:35:16,127] {logging_mixin.py:109} INFO - [2022-12-02 05:35:16,124] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:35:16,371] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 5.601 seconds
+[2022-12-02 05:35:46,746] {processor.py:163} INFO - Started process (PID=5518) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:35:46,750] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:35:46,753] {logging_mixin.py:109} INFO - [2022-12-02 05:35:46,753] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:35:50,869] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:35:50,921] {logging_mixin.py:109} INFO - [2022-12-02 05:35:50,920] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:35:51,026] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.288 seconds
+[2022-12-02 05:36:21,134] {processor.py:163} INFO - Started process (PID=5574) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:36:21,139] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:36:21,141] {logging_mixin.py:109} INFO - [2022-12-02 05:36:21,141] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:36:24,872] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:36:24,922] {logging_mixin.py:109} INFO - [2022-12-02 05:36:24,921] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:36:25,016] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.890 seconds
+[2022-12-02 05:36:55,848] {processor.py:163} INFO - Started process (PID=5626) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:36:55,853] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:36:55,856] {logging_mixin.py:109} INFO - [2022-12-02 05:36:55,855] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:36:59,820] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:36:59,864] {logging_mixin.py:109} INFO - [2022-12-02 05:36:59,862] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:36:59,964] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.124 seconds
+[2022-12-02 05:37:30,123] {processor.py:163} INFO - Started process (PID=5688) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:37:30,127] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:37:30,130] {logging_mixin.py:109} INFO - [2022-12-02 05:37:30,129] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:37:33,836] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:37:33,922] {logging_mixin.py:109} INFO - [2022-12-02 05:37:33,920] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:37:34,083] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.968 seconds
+[2022-12-02 05:38:04,535] {processor.py:163} INFO - Started process (PID=5763) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:38:04,540] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:38:04,543] {logging_mixin.py:109} INFO - [2022-12-02 05:38:04,542] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:38:13,371] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:38:13,421] {logging_mixin.py:109} INFO - [2022-12-02 05:38:13,419] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:38:13,524] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 9.000 seconds
+[2022-12-02 05:38:44,139] {processor.py:163} INFO - Started process (PID=5825) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:38:44,144] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:38:44,146] {logging_mixin.py:109} INFO - [2022-12-02 05:38:44,146] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:38:49,269] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:38:49,338] {logging_mixin.py:109} INFO - [2022-12-02 05:38:49,336] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:38:49,467] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 5.336 seconds
+[2022-12-02 05:39:20,028] {processor.py:163} INFO - Started process (PID=5871) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:39:20,032] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:39:20,034] {logging_mixin.py:109} INFO - [2022-12-02 05:39:20,034] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:39:23,898] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:39:23,943] {logging_mixin.py:109} INFO - [2022-12-02 05:39:23,942] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:39:24,034] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.014 seconds
+[2022-12-02 05:39:54,203] {processor.py:163} INFO - Started process (PID=5933) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:39:54,208] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:39:54,210] {logging_mixin.py:109} INFO - [2022-12-02 05:39:54,210] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:39:57,910] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:39:57,955] {logging_mixin.py:109} INFO - [2022-12-02 05:39:57,954] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:39:58,041] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.845 seconds
+[2022-12-02 05:40:28,235] {processor.py:163} INFO - Started process (PID=5995) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:40:28,239] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:40:28,242] {logging_mixin.py:109} INFO - [2022-12-02 05:40:28,241] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:40:32,239] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:40:32,285] {logging_mixin.py:109} INFO - [2022-12-02 05:40:32,284] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:40:32,369] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.141 seconds
+[2022-12-02 05:41:02,515] {processor.py:163} INFO - Started process (PID=6057) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:41:02,519] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:41:02,522] {logging_mixin.py:109} INFO - [2022-12-02 05:41:02,521] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:41:06,597] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:41:06,647] {logging_mixin.py:109} INFO - [2022-12-02 05:41:06,646] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:41:06,748] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.241 seconds
+[2022-12-02 05:41:37,067] {processor.py:163} INFO - Started process (PID=6103) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:41:37,072] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:41:37,075] {logging_mixin.py:109} INFO - [2022-12-02 05:41:37,074] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:41:40,449] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:41:40,486] {logging_mixin.py:109} INFO - [2022-12-02 05:41:40,485] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:41:40,563] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.505 seconds
+[2022-12-02 05:42:10,996] {processor.py:163} INFO - Started process (PID=6165) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:42:11,000] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:42:11,002] {logging_mixin.py:109} INFO - [2022-12-02 05:42:11,002] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:42:14,604] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:42:14,640] {logging_mixin.py:109} INFO - [2022-12-02 05:42:14,639] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:42:14,719] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.731 seconds
+[2022-12-02 05:42:45,172] {processor.py:163} INFO - Started process (PID=6227) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:42:45,177] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:42:45,179] {logging_mixin.py:109} INFO - [2022-12-02 05:42:45,179] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:42:49,402] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:42:49,445] {logging_mixin.py:109} INFO - [2022-12-02 05:42:49,444] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:42:49,551] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.387 seconds
+[2022-12-02 05:43:19,796] {processor.py:163} INFO - Started process (PID=6274) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:43:19,800] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:43:19,802] {logging_mixin.py:109} INFO - [2022-12-02 05:43:19,802] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:43:23,641] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:43:23,689] {logging_mixin.py:109} INFO - [2022-12-02 05:43:23,687] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:43:23,794] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.006 seconds
+[2022-12-02 05:43:54,247] {processor.py:163} INFO - Started process (PID=6336) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:43:54,252] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:43:54,254] {logging_mixin.py:109} INFO - [2022-12-02 05:43:54,254] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:43:58,072] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:43:58,112] {logging_mixin.py:109} INFO - [2022-12-02 05:43:58,111] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:43:58,195] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.956 seconds
+[2022-12-02 05:44:28,641] {processor.py:163} INFO - Started process (PID=6398) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:44:28,646] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:44:28,648] {logging_mixin.py:109} INFO - [2022-12-02 05:44:28,648] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:44:32,971] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:44:33,017] {logging_mixin.py:109} INFO - [2022-12-02 05:44:33,016] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:44:33,144] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.510 seconds
+[2022-12-02 05:45:04,087] {processor.py:163} INFO - Started process (PID=6460) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:45:04,091] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:45:04,094] {logging_mixin.py:109} INFO - [2022-12-02 05:45:04,093] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:45:08,393] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:45:08,435] {logging_mixin.py:109} INFO - [2022-12-02 05:45:08,434] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:45:08,534] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.455 seconds
+[2022-12-02 05:45:38,960] {processor.py:163} INFO - Started process (PID=6506) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:45:38,965] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:45:38,968] {logging_mixin.py:109} INFO - [2022-12-02 05:45:38,968] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:45:42,868] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:45:42,914] {logging_mixin.py:109} INFO - [2022-12-02 05:45:42,912] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:45:43,013] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.062 seconds
+[2022-12-02 05:46:13,153] {processor.py:163} INFO - Started process (PID=6568) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:46:13,158] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:46:13,160] {logging_mixin.py:109} INFO - [2022-12-02 05:46:13,160] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:46:16,853] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:46:16,892] {logging_mixin.py:109} INFO - [2022-12-02 05:46:16,891] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:46:16,970] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.827 seconds
+[2022-12-02 05:46:47,089] {processor.py:163} INFO - Started process (PID=6630) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:46:47,093] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:46:47,096] {logging_mixin.py:109} INFO - [2022-12-02 05:46:47,095] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:46:50,800] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:46:50,842] {logging_mixin.py:109} INFO - [2022-12-02 05:46:50,841] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:46:50,930] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.851 seconds
+[2022-12-02 05:47:21,166] {processor.py:163} INFO - Started process (PID=6676) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:47:21,171] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:47:21,173] {logging_mixin.py:109} INFO - [2022-12-02 05:47:21,173] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:47:26,352] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:47:26,419] {logging_mixin.py:109} INFO - [2022-12-02 05:47:26,417] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:47:26,546] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 5.390 seconds
+[2022-12-02 05:47:56,821] {processor.py:163} INFO - Started process (PID=6738) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:47:56,825] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:47:56,827] {logging_mixin.py:109} INFO - [2022-12-02 05:47:56,827] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:48:00,368] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:48:00,405] {logging_mixin.py:109} INFO - [2022-12-02 05:48:00,404] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:48:00,483] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.670 seconds
+[2022-12-02 05:48:30,909] {processor.py:163} INFO - Started process (PID=6800) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:48:30,914] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:48:30,916] {logging_mixin.py:109} INFO - [2022-12-02 05:48:30,916] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:48:34,556] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:48:34,609] {logging_mixin.py:109} INFO - [2022-12-02 05:48:34,607] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:48:34,690] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.789 seconds
+[2022-12-02 05:49:04,861] {processor.py:163} INFO - Started process (PID=6874) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:49:04,865] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:49:04,868] {logging_mixin.py:109} INFO - [2022-12-02 05:49:04,868] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:49:08,853] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:49:08,899] {logging_mixin.py:109} INFO - [2022-12-02 05:49:08,897] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:49:09,008] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.157 seconds
+[2022-12-02 05:49:39,535] {processor.py:163} INFO - Started process (PID=6920) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:49:39,539] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:49:39,542] {logging_mixin.py:109} INFO - [2022-12-02 05:49:39,541] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:49:43,670] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:49:43,715] {logging_mixin.py:109} INFO - [2022-12-02 05:49:43,714] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:49:43,814] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.289 seconds
+[2022-12-02 05:50:14,016] {processor.py:163} INFO - Started process (PID=6981) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:50:14,021] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:50:14,024] {logging_mixin.py:109} INFO - [2022-12-02 05:50:14,024] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:50:17,698] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:50:17,736] {logging_mixin.py:109} INFO - [2022-12-02 05:50:17,735] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:50:17,828] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.826 seconds
+[2022-12-02 05:50:48,184] {processor.py:163} INFO - Started process (PID=7043) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:50:48,188] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:50:48,190] {logging_mixin.py:109} INFO - [2022-12-02 05:50:48,190] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:50:51,605] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:50:51,646] {logging_mixin.py:109} INFO - [2022-12-02 05:50:51,645] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:50:51,738] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.562 seconds
+[2022-12-02 05:51:22,300] {processor.py:163} INFO - Started process (PID=7099) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:51:22,308] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:51:22,314] {logging_mixin.py:109} INFO - [2022-12-02 05:51:22,314] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:51:26,609] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:51:26,663] {logging_mixin.py:109} INFO - [2022-12-02 05:51:26,661] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:51:26,773] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.487 seconds
+[2022-12-02 05:51:57,528] {processor.py:163} INFO - Started process (PID=7161) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:51:57,533] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:51:57,535] {logging_mixin.py:109} INFO - [2022-12-02 05:51:57,535] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:52:01,411] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:52:01,478] {logging_mixin.py:109} INFO - [2022-12-02 05:52:01,477] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:52:01,608] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.089 seconds
+[2022-12-02 05:52:31,916] {processor.py:163} INFO - Started process (PID=7236) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:52:31,920] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:52:31,923] {logging_mixin.py:109} INFO - [2022-12-02 05:52:31,922] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:52:35,551] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:52:35,588] {logging_mixin.py:109} INFO - [2022-12-02 05:52:35,587] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:52:35,667] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.761 seconds
+[2022-12-02 05:53:05,749] {processor.py:163} INFO - Started process (PID=7298) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:53:05,754] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:53:05,756] {logging_mixin.py:109} INFO - [2022-12-02 05:53:05,756] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:53:09,133] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:53:09,172] {logging_mixin.py:109} INFO - [2022-12-02 05:53:09,171] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:53:09,255] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.513 seconds
+[2022-12-02 05:53:39,405] {processor.py:163} INFO - Started process (PID=7361) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:53:39,410] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:53:39,413] {logging_mixin.py:109} INFO - [2022-12-02 05:53:39,412] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:53:42,903] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:53:42,944] {logging_mixin.py:109} INFO - [2022-12-02 05:53:42,943] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:53:43,029] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.632 seconds
+[2022-12-02 05:54:13,460] {processor.py:163} INFO - Started process (PID=7423) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:54:13,465] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:54:13,468] {logging_mixin.py:109} INFO - [2022-12-02 05:54:13,467] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:54:16,674] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:54:16,713] {logging_mixin.py:109} INFO - [2022-12-02 05:54:16,712] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:54:16,794] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.343 seconds
+[2022-12-02 05:54:47,248] {processor.py:163} INFO - Started process (PID=7485) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:54:47,253] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:54:47,255] {logging_mixin.py:109} INFO - [2022-12-02 05:54:47,255] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:54:51,003] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:54:51,044] {logging_mixin.py:109} INFO - [2022-12-02 05:54:51,043] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:54:51,126] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.885 seconds
+[2022-12-02 05:55:21,694] {processor.py:163} INFO - Started process (PID=7541) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:55:21,699] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:55:21,706] {logging_mixin.py:109} INFO - [2022-12-02 05:55:21,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:55:26,575] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:55:26,620] {logging_mixin.py:109} INFO - [2022-12-02 05:55:26,618] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:55:26,730] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 5.047 seconds
+[2022-12-02 05:55:57,252] {processor.py:163} INFO - Started process (PID=7593) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:55:57,256] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:55:57,259] {logging_mixin.py:109} INFO - [2022-12-02 05:55:57,258] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:56:00,510] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:56:00,548] {logging_mixin.py:109} INFO - [2022-12-02 05:56:00,547] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:56:00,629] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.386 seconds
+[2022-12-02 05:56:31,032] {processor.py:163} INFO - Started process (PID=7655) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:56:31,038] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:56:31,041] {logging_mixin.py:109} INFO - [2022-12-02 05:56:31,041] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:56:34,896] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:56:34,935] {logging_mixin.py:109} INFO - [2022-12-02 05:56:34,934] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:56:35,013] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.991 seconds
+[2022-12-02 05:57:05,418] {processor.py:163} INFO - Started process (PID=7717) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:57:05,421] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:57:05,424] {logging_mixin.py:109} INFO - [2022-12-02 05:57:05,424] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:57:08,869] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:57:08,906] {logging_mixin.py:109} INFO - [2022-12-02 05:57:08,905] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:57:08,985] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.575 seconds
+[2022-12-02 05:57:39,827] {processor.py:163} INFO - Started process (PID=7763) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:57:39,831] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:57:39,834] {logging_mixin.py:109} INFO - [2022-12-02 05:57:39,834] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:57:43,291] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:57:43,332] {logging_mixin.py:109} INFO - [2022-12-02 05:57:43,331] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:57:43,418] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.600 seconds
+[2022-12-02 05:58:13,527] {processor.py:163} INFO - Started process (PID=7826) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:58:13,532] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:58:13,535] {logging_mixin.py:109} INFO - [2022-12-02 05:58:13,534] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:58:16,833] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:58:16,870] {logging_mixin.py:109} INFO - [2022-12-02 05:58:16,869] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:58:16,948] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.429 seconds
+[2022-12-02 05:58:47,389] {processor.py:163} INFO - Started process (PID=7906) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:58:47,393] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:58:47,395] {logging_mixin.py:109} INFO - [2022-12-02 05:58:47,395] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:58:50,699] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:58:50,746] {logging_mixin.py:109} INFO - [2022-12-02 05:58:50,744] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:58:50,869] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.487 seconds
+[2022-12-02 05:59:21,398] {processor.py:163} INFO - Started process (PID=7952) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:59:21,403] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:59:21,406] {logging_mixin.py:109} INFO - [2022-12-02 05:59:21,406] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:59:24,894] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:59:24,934] {logging_mixin.py:109} INFO - [2022-12-02 05:59:24,933] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:59:25,018] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.631 seconds
+[2022-12-02 05:59:55,796] {processor.py:163} INFO - Started process (PID=8015) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:59:55,801] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 05:59:55,803] {logging_mixin.py:109} INFO - [2022-12-02 05:59:55,803] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:59:59,047] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 05:59:59,083] {logging_mixin.py:109} INFO - [2022-12-02 05:59:59,082] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 05:59:59,164] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.375 seconds
+[2022-12-02 06:00:29,904] {processor.py:163} INFO - Started process (PID=8079) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:00:29,908] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:00:29,910] {logging_mixin.py:109} INFO - [2022-12-02 06:00:29,910] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:00:34,335] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:00:34,379] {logging_mixin.py:109} INFO - [2022-12-02 06:00:34,377] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:00:34,506] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.609 seconds
+[2022-12-02 06:01:05,431] {processor.py:163} INFO - Started process (PID=8147) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:01:05,436] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:01:05,438] {logging_mixin.py:109} INFO - [2022-12-02 06:01:05,438] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:01:08,736] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:01:08,773] {logging_mixin.py:109} INFO - [2022-12-02 06:01:08,772] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:01:08,853] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.429 seconds
+[2022-12-02 06:01:39,282] {processor.py:163} INFO - Started process (PID=8220) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:01:39,287] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:01:39,290] {logging_mixin.py:109} INFO - [2022-12-02 06:01:39,289] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:01:42,865] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:01:42,940] {logging_mixin.py:109} INFO - [2022-12-02 06:01:42,939] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:01:43,117] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.845 seconds
+[2022-12-02 06:02:13,964] {processor.py:163} INFO - Started process (PID=8346) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:02:13,975] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:02:13,986] {logging_mixin.py:109} INFO - [2022-12-02 06:02:13,985] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:02:25,603] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:02:25,801] {logging_mixin.py:109} INFO - [2022-12-02 06:02:25,797] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:02:26,258] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 12.307 seconds
+[2022-12-02 06:02:56,624] {processor.py:163} INFO - Started process (PID=8451) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:02:56,631] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:02:56,634] {logging_mixin.py:109} INFO - [2022-12-02 06:02:56,634] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:03:00,068] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:03:00,105] {logging_mixin.py:109} INFO - [2022-12-02 06:03:00,104] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:03:00,181] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.566 seconds
+[2022-12-02 06:03:30,597] {processor.py:163} INFO - Started process (PID=8513) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:03:30,601] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:03:30,604] {logging_mixin.py:109} INFO - [2022-12-02 06:03:30,603] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:03:34,023] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:03:34,061] {logging_mixin.py:109} INFO - [2022-12-02 06:03:34,060] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:03:34,143] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.555 seconds
+[2022-12-02 06:04:04,543] {processor.py:163} INFO - Started process (PID=8577) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:04:04,547] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:04:04,550] {logging_mixin.py:109} INFO - [2022-12-02 06:04:04,550] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:04:07,768] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:04:07,805] {logging_mixin.py:109} INFO - [2022-12-02 06:04:07,804] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:04:07,882] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.349 seconds
+[2022-12-02 06:04:38,444] {processor.py:163} INFO - Started process (PID=8624) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:04:38,449] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:04:38,452] {logging_mixin.py:109} INFO - [2022-12-02 06:04:38,452] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:04:41,621] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:04:41,659] {logging_mixin.py:109} INFO - [2022-12-02 06:04:41,658] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:04:41,742] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.306 seconds
+[2022-12-02 06:05:12,113] {processor.py:163} INFO - Started process (PID=8703) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:05:12,117] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:05:12,121] {logging_mixin.py:109} INFO - [2022-12-02 06:05:12,121] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:05:15,338] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:05:15,376] {logging_mixin.py:109} INFO - [2022-12-02 06:05:15,375] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:05:15,452] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.348 seconds
+[2022-12-02 06:05:45,550] {processor.py:163} INFO - Started process (PID=8773) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:05:45,555] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:05:45,557] {logging_mixin.py:109} INFO - [2022-12-02 06:05:45,557] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:05:49,144] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:05:49,184] {logging_mixin.py:109} INFO - [2022-12-02 06:05:49,183] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:05:49,276] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.733 seconds
+[2022-12-02 06:06:19,683] {processor.py:163} INFO - Started process (PID=8819) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:06:19,690] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:06:19,693] {logging_mixin.py:109} INFO - [2022-12-02 06:06:19,692] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:06:23,635] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:06:23,686] {logging_mixin.py:109} INFO - [2022-12-02 06:06:23,685] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:06:23,787] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.115 seconds
+[2022-12-02 06:06:54,226] {processor.py:163} INFO - Started process (PID=8881) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:06:54,230] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:06:54,232] {logging_mixin.py:109} INFO - [2022-12-02 06:06:54,232] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:06:57,390] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:06:57,427] {logging_mixin.py:109} INFO - [2022-12-02 06:06:57,426] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:06:57,503] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.286 seconds
+[2022-12-02 06:07:27,849] {processor.py:163} INFO - Started process (PID=8944) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:07:27,853] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:07:27,857] {logging_mixin.py:109} INFO - [2022-12-02 06:07:27,856] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:07:31,383] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:07:31,424] {logging_mixin.py:109} INFO - [2022-12-02 06:07:31,423] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:07:31,512] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.672 seconds
+[2022-12-02 06:08:01,942] {processor.py:163} INFO - Started process (PID=9000) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:08:01,947] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:08:01,949] {logging_mixin.py:109} INFO - [2022-12-02 06:08:01,949] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:08:06,144] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:08:06,219] {logging_mixin.py:109} INFO - [2022-12-02 06:08:06,217] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:08:06,364] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.429 seconds
+[2022-12-02 06:08:36,760] {processor.py:163} INFO - Started process (PID=9052) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:08:36,765] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:08:36,768] {logging_mixin.py:109} INFO - [2022-12-02 06:08:36,768] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:08:40,162] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:08:40,198] {logging_mixin.py:109} INFO - [2022-12-02 06:08:40,197] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:08:40,280] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.530 seconds
+[2022-12-02 06:09:10,420] {processor.py:163} INFO - Started process (PID=9114) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:09:10,424] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:09:10,427] {logging_mixin.py:109} INFO - [2022-12-02 06:09:10,426] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:09:13,887] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:09:13,929] {logging_mixin.py:109} INFO - [2022-12-02 06:09:13,928] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:09:14,029] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.616 seconds
+[2022-12-02 06:09:44,711] {processor.py:163} INFO - Started process (PID=9176) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:09:44,716] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:09:44,718] {logging_mixin.py:109} INFO - [2022-12-02 06:09:44,718] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:09:49,763] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:09:49,813] {logging_mixin.py:109} INFO - [2022-12-02 06:09:49,812] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:09:49,923] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 5.221 seconds
+[2022-12-02 06:10:20,356] {processor.py:163} INFO - Started process (PID=9222) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:10:20,360] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:10:20,362] {logging_mixin.py:109} INFO - [2022-12-02 06:10:20,362] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:10:23,742] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:10:23,786] {logging_mixin.py:109} INFO - [2022-12-02 06:10:23,785] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:10:23,879] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.531 seconds
+[2022-12-02 06:10:54,001] {processor.py:163} INFO - Started process (PID=9284) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:10:54,005] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:10:54,008] {logging_mixin.py:109} INFO - [2022-12-02 06:10:54,007] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:10:57,201] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:10:57,237] {logging_mixin.py:109} INFO - [2022-12-02 06:10:57,236] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:10:57,313] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.322 seconds
+[2022-12-02 06:11:27,728] {processor.py:163} INFO - Started process (PID=9348) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:11:27,732] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:11:27,736] {logging_mixin.py:109} INFO - [2022-12-02 06:11:27,735] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:11:31,943] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:11:31,980] {logging_mixin.py:109} INFO - [2022-12-02 06:11:31,979] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:11:32,056] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.336 seconds
+[2022-12-02 06:12:02,681] {processor.py:163} INFO - Started process (PID=9410) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:12:02,685] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:12:02,687] {logging_mixin.py:109} INFO - [2022-12-02 06:12:02,687] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:12:06,340] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:12:06,378] {logging_mixin.py:109} INFO - [2022-12-02 06:12:06,377] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:12:06,455] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.782 seconds
+[2022-12-02 06:12:37,158] {processor.py:163} INFO - Started process (PID=9462) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:12:37,162] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:12:37,164] {logging_mixin.py:109} INFO - [2022-12-02 06:12:37,164] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:12:40,613] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:12:40,657] {logging_mixin.py:109} INFO - [2022-12-02 06:12:40,656] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:12:40,739] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.588 seconds
+[2022-12-02 06:13:10,963] {processor.py:163} INFO - Started process (PID=9526) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:13:10,967] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:13:10,970] {logging_mixin.py:109} INFO - [2022-12-02 06:13:10,970] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:13:14,386] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:13:14,423] {logging_mixin.py:109} INFO - [2022-12-02 06:13:14,422] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:13:14,500] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.546 seconds
+[2022-12-02 06:13:44,764] {processor.py:163} INFO - Started process (PID=9588) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:13:44,769] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:13:44,771] {logging_mixin.py:109} INFO - [2022-12-02 06:13:44,771] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:13:48,000] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:13:48,037] {logging_mixin.py:109} INFO - [2022-12-02 06:13:48,036] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:13:48,113] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.358 seconds
+[2022-12-02 06:14:18,565] {processor.py:163} INFO - Started process (PID=9634) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:14:18,570] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:14:18,573] {logging_mixin.py:109} INFO - [2022-12-02 06:14:18,572] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:14:21,702] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:14:21,747] {logging_mixin.py:109} INFO - [2022-12-02 06:14:21,746] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:14:21,828] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.271 seconds
+[2022-12-02 06:14:51,956] {processor.py:163} INFO - Started process (PID=9696) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:14:51,959] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:14:51,962] {logging_mixin.py:109} INFO - [2022-12-02 06:14:51,961] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:14:55,169] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:14:55,205] {logging_mixin.py:109} INFO - [2022-12-02 06:14:55,204] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:14:55,285] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.336 seconds
+[2022-12-02 06:15:25,365] {processor.py:163} INFO - Started process (PID=9759) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:15:25,369] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:15:25,371] {logging_mixin.py:109} INFO - [2022-12-02 06:15:25,371] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:15:28,487] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:15:28,524] {logging_mixin.py:109} INFO - [2022-12-02 06:15:28,523] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:15:28,604] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.246 seconds
+[2022-12-02 06:15:59,036] {processor.py:163} INFO - Started process (PID=9805) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:15:59,042] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:15:59,044] {logging_mixin.py:109} INFO - [2022-12-02 06:15:59,044] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:16:02,301] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:16:02,338] {logging_mixin.py:109} INFO - [2022-12-02 06:16:02,337] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:16:02,418] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.391 seconds
+[2022-12-02 06:16:32,703] {processor.py:163} INFO - Started process (PID=9868) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:16:32,707] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:16:32,710] {logging_mixin.py:109} INFO - [2022-12-02 06:16:32,710] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:16:36,076] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:16:36,113] {logging_mixin.py:109} INFO - [2022-12-02 06:16:36,112] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:16:36,193] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.499 seconds
+[2022-12-02 06:17:06,464] {processor.py:163} INFO - Started process (PID=9931) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:17:06,468] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:17:06,471] {logging_mixin.py:109} INFO - [2022-12-02 06:17:06,471] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:17:09,674] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:17:09,711] {logging_mixin.py:109} INFO - [2022-12-02 06:17:09,710] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:17:09,793] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.337 seconds
+[2022-12-02 06:17:40,066] {processor.py:163} INFO - Started process (PID=9977) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:17:40,070] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:17:40,072] {logging_mixin.py:109} INFO - [2022-12-02 06:17:40,072] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:17:43,161] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:17:43,201] {logging_mixin.py:109} INFO - [2022-12-02 06:17:43,199] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:17:43,277] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.221 seconds
+[2022-12-02 06:18:13,695] {processor.py:163} INFO - Started process (PID=10041) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:18:13,699] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:18:13,702] {logging_mixin.py:109} INFO - [2022-12-02 06:18:13,701] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:18:16,831] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:18:16,872] {logging_mixin.py:109} INFO - [2022-12-02 06:18:16,871] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:18:16,949] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.261 seconds
+[2022-12-02 06:18:47,676] {processor.py:163} INFO - Started process (PID=10103) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:18:47,680] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:18:47,682] {logging_mixin.py:109} INFO - [2022-12-02 06:18:47,682] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:18:50,759] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:18:50,798] {logging_mixin.py:109} INFO - [2022-12-02 06:18:50,797] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:18:50,876] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.208 seconds
+[2022-12-02 06:19:21,000] {processor.py:163} INFO - Started process (PID=10149) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:19:21,004] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:19:21,007] {logging_mixin.py:109} INFO - [2022-12-02 06:19:21,006] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:19:24,171] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:19:24,210] {logging_mixin.py:109} INFO - [2022-12-02 06:19:24,209] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:19:24,296] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.305 seconds
+[2022-12-02 06:19:54,682] {processor.py:163} INFO - Started process (PID=10212) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:19:54,685] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:19:54,688] {logging_mixin.py:109} INFO - [2022-12-02 06:19:54,688] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:19:57,748] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:19:57,786] {logging_mixin.py:109} INFO - [2022-12-02 06:19:57,785] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:19:57,862] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.188 seconds
+[2022-12-02 06:20:28,290] {processor.py:163} INFO - Started process (PID=10274) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:20:28,294] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:20:28,296] {logging_mixin.py:109} INFO - [2022-12-02 06:20:28,296] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:20:31,559] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:20:31,600] {logging_mixin.py:109} INFO - [2022-12-02 06:20:31,599] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:20:31,679] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.396 seconds
+[2022-12-02 06:21:02,157] {processor.py:163} INFO - Started process (PID=10330) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:21:02,162] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:21:02,165] {logging_mixin.py:109} INFO - [2022-12-02 06:21:02,164] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:21:05,679] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:21:05,732] {logging_mixin.py:109} INFO - [2022-12-02 06:21:05,730] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:21:05,837] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.687 seconds
+[2022-12-02 06:21:36,634] {processor.py:163} INFO - Started process (PID=10382) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:21:36,637] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:21:36,640] {logging_mixin.py:109} INFO - [2022-12-02 06:21:36,639] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:21:39,773] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:21:39,811] {logging_mixin.py:109} INFO - [2022-12-02 06:21:39,810] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:21:39,891] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.265 seconds
+[2022-12-02 06:22:10,691] {processor.py:163} INFO - Started process (PID=10444) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:22:10,695] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:22:10,698] {logging_mixin.py:109} INFO - [2022-12-02 06:22:10,698] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:22:14,133] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:22:14,170] {logging_mixin.py:109} INFO - [2022-12-02 06:22:14,169] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:22:14,251] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.568 seconds
+[2022-12-02 06:22:44,633] {processor.py:163} INFO - Started process (PID=10506) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:22:44,638] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:22:44,641] {logging_mixin.py:109} INFO - [2022-12-02 06:22:44,640] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:22:48,555] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:22:48,602] {logging_mixin.py:109} INFO - [2022-12-02 06:22:48,600] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:22:48,707] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 4.084 seconds
+[2022-12-02 06:23:19,246] {processor.py:163} INFO - Started process (PID=10551) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:23:19,251] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:23:19,254] {logging_mixin.py:109} INFO - [2022-12-02 06:23:19,253] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:23:22,439] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:23:22,477] {logging_mixin.py:109} INFO - [2022-12-02 06:23:22,475] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:23:22,556] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.319 seconds
+[2022-12-02 06:23:53,272] {processor.py:163} INFO - Started process (PID=10613) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:23:53,275] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:23:53,278] {logging_mixin.py:109} INFO - [2022-12-02 06:23:53,278] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:23:56,354] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:23:56,390] {logging_mixin.py:109} INFO - [2022-12-02 06:23:56,389] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:23:56,466] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.202 seconds
+[2022-12-02 06:24:26,906] {processor.py:163} INFO - Started process (PID=10675) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:24:26,911] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:24:26,913] {logging_mixin.py:109} INFO - [2022-12-02 06:24:26,913] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:24:30,568] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:24:30,613] {logging_mixin.py:109} INFO - [2022-12-02 06:24:30,611] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:24:30,709] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.811 seconds
+[2022-12-02 06:25:01,564] {processor.py:163} INFO - Started process (PID=10721) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:25:01,569] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:25:01,571] {logging_mixin.py:109} INFO - [2022-12-02 06:25:01,571] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:25:04,761] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:25:04,798] {logging_mixin.py:109} INFO - [2022-12-02 06:25:04,797] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:25:04,878] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.321 seconds
+[2022-12-02 06:25:35,049] {processor.py:163} INFO - Started process (PID=10783) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:25:35,053] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:25:35,056] {logging_mixin.py:109} INFO - [2022-12-02 06:25:35,056] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:25:38,130] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:25:38,166] {logging_mixin.py:109} INFO - [2022-12-02 06:25:38,165] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:25:38,241] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.200 seconds
+[2022-12-02 06:26:08,376] {processor.py:163} INFO - Started process (PID=10845) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:26:08,380] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:26:08,383] {logging_mixin.py:109} INFO - [2022-12-02 06:26:08,382] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:26:11,622] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:26:11,659] {logging_mixin.py:109} INFO - [2022-12-02 06:26:11,658] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:26:11,742] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.373 seconds
+[2022-12-02 06:26:41,858] {processor.py:163} INFO - Started process (PID=10891) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:26:41,861] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:26:41,863] {logging_mixin.py:109} INFO - [2022-12-02 06:26:41,863] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:26:45,023] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:26:45,062] {logging_mixin.py:109} INFO - [2022-12-02 06:26:45,061] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:26:45,143] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.292 seconds
+[2022-12-02 06:27:15,310] {processor.py:163} INFO - Started process (PID=10953) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:27:15,315] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:27:15,318] {logging_mixin.py:109} INFO - [2022-12-02 06:27:15,317] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:27:18,388] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:27:18,425] {logging_mixin.py:109} INFO - [2022-12-02 06:27:18,424] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:27:18,501] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.199 seconds
+[2022-12-02 06:27:48,675] {processor.py:163} INFO - Started process (PID=11015) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:27:48,679] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:27:48,681] {logging_mixin.py:109} INFO - [2022-12-02 06:27:48,681] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:27:51,927] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:27:51,966] {logging_mixin.py:109} INFO - [2022-12-02 06:27:51,965] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:27:52,046] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.378 seconds
+[2022-12-02 06:28:22,697] {processor.py:163} INFO - Started process (PID=11071) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:28:22,701] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:28:22,703] {logging_mixin.py:109} INFO - [2022-12-02 06:28:22,703] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:28:25,837] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:28:25,874] {logging_mixin.py:109} INFO - [2022-12-02 06:28:25,873] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:28:25,952] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.262 seconds
+[2022-12-02 06:28:56,335] {processor.py:163} INFO - Started process (PID=11123) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:28:56,339] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:28:56,341] {logging_mixin.py:109} INFO - [2022-12-02 06:28:56,341] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:28:59,388] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:28:59,424] {logging_mixin.py:109} INFO - [2022-12-02 06:28:59,423] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:28:59,499] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.172 seconds
+[2022-12-02 06:29:29,688] {processor.py:163} INFO - Started process (PID=11186) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:29:29,692] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:29:29,694] {logging_mixin.py:109} INFO - [2022-12-02 06:29:29,693] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:29:32,963] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:29:33,001] {logging_mixin.py:109} INFO - [2022-12-02 06:29:33,000] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:29:33,081] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.400 seconds
+[2022-12-02 06:30:03,443] {processor.py:163} INFO - Started process (PID=11249) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:30:03,448] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:30:03,450] {logging_mixin.py:109} INFO - [2022-12-02 06:30:03,450] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:30:06,631] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:30:06,668] {logging_mixin.py:109} INFO - [2022-12-02 06:30:06,667] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:30:06,750] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.315 seconds
+[2022-12-02 06:30:37,089] {processor.py:163} INFO - Started process (PID=11295) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:30:37,095] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:30:37,098] {logging_mixin.py:109} INFO - [2022-12-02 06:30:37,098] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:30:40,679] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:30:40,717] {logging_mixin.py:109} INFO - [2022-12-02 06:30:40,715] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:30:40,795] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.717 seconds
+[2022-12-02 06:31:11,151] {processor.py:163} INFO - Started process (PID=11358) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:31:11,155] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:31:11,158] {logging_mixin.py:109} INFO - [2022-12-02 06:31:11,157] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:31:14,474] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:31:14,510] {logging_mixin.py:109} INFO - [2022-12-02 06:31:14,509] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:31:14,590] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.446 seconds
+[2022-12-02 06:31:44,736] {processor.py:163} INFO - Started process (PID=11419) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:31:44,740] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:31:44,742] {logging_mixin.py:109} INFO - [2022-12-02 06:31:44,742] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:31:48,058] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:31:48,095] {logging_mixin.py:109} INFO - [2022-12-02 06:31:48,094] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:31:48,175] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.446 seconds
+[2022-12-02 06:32:18,510] {processor.py:163} INFO - Started process (PID=11465) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:32:18,513] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:32:18,515] {logging_mixin.py:109} INFO - [2022-12-02 06:32:18,515] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:32:21,601] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:32:21,637] {logging_mixin.py:109} INFO - [2022-12-02 06:32:21,636] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:32:21,727] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.224 seconds
+[2022-12-02 06:32:52,446] {processor.py:163} INFO - Started process (PID=11527) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:32:52,452] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:32:52,454] {logging_mixin.py:109} INFO - [2022-12-02 06:32:52,454] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:32:55,879] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:32:55,919] {logging_mixin.py:109} INFO - [2022-12-02 06:32:55,918] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:32:55,999] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.561 seconds
+[2022-12-02 06:33:26,484] {processor.py:163} INFO - Started process (PID=11589) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:33:26,489] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:33:26,492] {logging_mixin.py:109} INFO - [2022-12-02 06:33:26,492] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:33:29,750] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:33:29,787] {logging_mixin.py:109} INFO - [2022-12-02 06:33:29,786] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:33:29,867] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.392 seconds
+[2022-12-02 06:34:00,271] {processor.py:163} INFO - Started process (PID=11635) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:34:00,275] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:34:00,278] {logging_mixin.py:109} INFO - [2022-12-02 06:34:00,278] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:34:03,409] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:34:03,449] {logging_mixin.py:109} INFO - [2022-12-02 06:34:03,448] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:34:03,526] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.263 seconds
+[2022-12-02 06:34:33,984] {processor.py:163} INFO - Started process (PID=11697) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:34:33,988] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:34:33,990] {logging_mixin.py:109} INFO - [2022-12-02 06:34:33,990] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:34:37,064] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:34:37,103] {logging_mixin.py:109} INFO - [2022-12-02 06:34:37,102] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:34:37,179] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.202 seconds
+[2022-12-02 06:35:07,599] {processor.py:163} INFO - Started process (PID=11760) to work on /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:35:07,603] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq_yellow_dag.py for tasks to queue
+[2022-12-02 06:35:07,605] {logging_mixin.py:109} INFO - [2022-12-02 06:35:07,605] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:35:10,919] {processor.py:654} INFO - DAG(s) dict_keys(['gcs_2_bq_dag']) retrieved from /opt/airflow/dags/gcs_to_bq_yellow_dag.py
+[2022-12-02 06:35:10,960] {logging_mixin.py:109} INFO - [2022-12-02 06:35:10,959] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-12-02 06:35:11,038] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq_yellow_dag.py took 3.447 seconds

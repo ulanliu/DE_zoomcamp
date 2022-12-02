@@ -1,0 +1,71 @@
+[2022-12-02 06:05:02,215] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_2_bq_dag.gcs_2_gcs_task scheduled__2022-11-30T00:00:00+00:00 [queued]>
+[2022-12-02 06:05:02,258] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_gcs_2_bq_dag.gcs_2_gcs_task scheduled__2022-11-30T00:00:00+00:00 [queued]>
+[2022-12-02 06:05:02,260] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-02 06:05:02,261] {taskinstance.py:1239} INFO - Starting attempt 2 of 3
+[2022-12-02 06:05:02,261] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-02 06:05:02,309] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): gcs_2_gcs_task> on 2022-11-30 00:00:00+00:00
+[2022-12-02 06:05:02,320] {standard_task_runner.py:52} INFO - Started process 8687 to run task
+[2022-12-02 06:05:02,330] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_gcs_2_bq_dag', 'gcs_2_gcs_task', 'scheduled__2022-11-30T00:00:00+00:00', '--job-id', '342', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_DHV_dag.py', '--cfg-path', '/tmp/tmpif7r3cyp', '--error-file', '/tmp/tmp6nwgc2q4']
+[2022-12-02 06:05:02,333] {standard_task_runner.py:77} INFO - Job 342: Subtask gcs_2_gcs_task
+[2022-12-02 06:05:02,478] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_gcs_2_bq_dag.gcs_2_gcs_task scheduled__2022-11-30T00:00:00+00:00 [running]> on host abdcba3d233e
+[2022-12-02 06:05:02,656] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=gcs_2_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-30T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-30T00:00:00+00:00
+[2022-12-02 06:05:02,661] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-12-02 06:05:02,662] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-12-02 06:05:03,104] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-03.parquet to gs://my_nyc_tlc/fhv/2019-03.parquet
+[2022-12-02 06:05:03,239] {gcs.py:251} INFO - Total Bytes: 19893934 | Bytes Written: 19893934
+[2022-12-02 06:05:03,241] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-03.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-03.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:03,326] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-03.parquet deleted.
+[2022-12-02 06:05:03,327] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-02.parquet to gs://my_nyc_tlc/fhv/2019-02.parquet
+[2022-12-02 06:05:03,447] {gcs.py:251} INFO - Total Bytes: 22570839 | Bytes Written: 22570839
+[2022-12-02 06:05:03,449] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-02.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-02.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:03,537] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-02.parquet deleted.
+[2022-12-02 06:05:03,538] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-10.parquet to gs://my_nyc_tlc/fhv/2019-10.parquet
+[2022-12-02 06:05:03,658] {gcs.py:251} INFO - Total Bytes: 24486293 | Bytes Written: 24486293
+[2022-12-02 06:05:03,659] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-10.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-10.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:03,748] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-10.parquet deleted.
+[2022-12-02 06:05:03,750] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-07.parquet to gs://my_nyc_tlc/fhv/2019-07.parquet
+[2022-12-02 06:05:03,879] {gcs.py:251} INFO - Total Bytes: 25575802 | Bytes Written: 25575802
+[2022-12-02 06:05:03,880] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-07.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-07.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:03,943] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-07.parquet deleted.
+[2022-12-02 06:05:03,945] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-12.parquet to gs://my_nyc_tlc/fhv/2019-12.parquet
+[2022-12-02 06:05:04,049] {gcs.py:251} INFO - Total Bytes: 26293313 | Bytes Written: 26293313
+[2022-12-02 06:05:04,050] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-12.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-12.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:04,117] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-12.parquet deleted.
+[2022-12-02 06:05:04,119] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-09.parquet to gs://my_nyc_tlc/fhv/2019-09.parquet
+[2022-12-02 06:05:04,235] {gcs.py:251} INFO - Total Bytes: 17471063 | Bytes Written: 17471063
+[2022-12-02 06:05:04,236] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-09.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-09.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:04,299] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-09.parquet deleted.
+[2022-12-02 06:05:04,300] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-06.parquet to gs://my_nyc_tlc/fhv/2019-06.parquet
+[2022-12-02 06:05:04,408] {gcs.py:251} INFO - Total Bytes: 24215173 | Bytes Written: 24215173
+[2022-12-02 06:05:04,409] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-06.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-06.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:04,511] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-06.parquet deleted.
+[2022-12-02 06:05:04,512] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-04.parquet to gs://my_nyc_tlc/fhv/2019-04.parquet
+[2022-12-02 06:05:04,620] {gcs.py:251} INFO - Total Bytes: 25299427 | Bytes Written: 25299427
+[2022-12-02 06:05:04,622] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-04.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-04.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:04,698] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-04.parquet deleted.
+[2022-12-02 06:05:04,700] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-11.parquet to gs://my_nyc_tlc/fhv/2019-11.parquet
+[2022-12-02 06:05:04,827] {gcs.py:251} INFO - Total Bytes: 24255443 | Bytes Written: 24255443
+[2022-12-02 06:05:04,829] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-11.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-11.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:04,902] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-11.parquet deleted.
+[2022-12-02 06:05:04,906] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-05.parquet to gs://my_nyc_tlc/fhv/2019-05.parquet
+[2022-12-02 06:05:05,054] {gcs.py:251} INFO - Total Bytes: 24802012 | Bytes Written: 24802012
+[2022-12-02 06:05:05,057] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-05.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-05.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:05,139] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-05.parquet deleted.
+[2022-12-02 06:05:05,141] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-01.parquet to gs://my_nyc_tlc/fhv/2019-01.parquet
+[2022-12-02 06:05:05,265] {gcs.py:251} INFO - Total Bytes: 282308517 | Bytes Written: 282308517
+[2022-12-02 06:05:05,268] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-01.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-01.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:05,341] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-01.parquet deleted.
+[2022-12-02 06:05:05,342] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/fhv_tripdata_2019-08.parquet to gs://my_nyc_tlc/fhv/2019-08.parquet
+[2022-12-02 06:05:05,457] {gcs.py:251} INFO - Total Bytes: 23464413 | Bytes Written: 23464413
+[2022-12-02 06:05:05,458] {gcs.py:264} INFO - Object raw/fhv_tripdata_2019-08.parquet in bucket my_nyc_tlc rewritten to object fhv/2019-08.parquet in bucket my_nyc_tlc
+[2022-12-02 06:05:05,512] {gcs.py:645} INFO - Blob raw/fhv_tripdata_2019-08.parquet deleted.
+[2022-12-02 06:05:05,551] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_gcs_2_bq_dag, task_id=gcs_2_gcs_task, execution_date=20221130T000000, start_date=20221202T060502, end_date=20221202T060505
+[2022-12-02 06:05:05,629] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-02 06:05:05,735] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
