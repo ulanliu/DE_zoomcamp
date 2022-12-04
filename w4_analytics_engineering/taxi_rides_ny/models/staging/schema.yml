@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dtc-de-course-368906
+    schema: trips_data_all
+
+    tables:
+      - name: external_yellow_tripdata
