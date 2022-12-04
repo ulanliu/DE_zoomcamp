@@ -1,0 +1,27 @@
+
+
+============================== 2022-12-04 04:16:36.168647 | b5c73e5b-4d3b-4b10-a901-4df7847ff282 ==============================
+[0m04:16:36.168658 [info ] [MainThread]: Running with dbt=1.3.0
+[0m04:16:36.168997 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/peter/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m04:16:36.169216 [debug] [MainThread]: Tracking: tracking
+[0m04:16:36.182776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061f7c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062b8310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062b8d90>]}
+[0m04:17:06.012147 [debug] [MainThread]: Starter project path: /opt/homebrew/Cellar/dbt-bigquery/1.3.0/libexec/lib/python3.9/site-packages/dbt/include/starter_project
+[0m04:20:04.093536 [info ] [MainThread]: Profile taxi_rides_ny written to /Users/peter/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m04:20:04.094576 [info ] [MainThread]: 
+Your new dbt project "taxi_rides_ny" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m04:20:04.095176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f59310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f59bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f595b0>]}
+[0m04:20:04.095632 [debug] [MainThread]: Flushing usage events
