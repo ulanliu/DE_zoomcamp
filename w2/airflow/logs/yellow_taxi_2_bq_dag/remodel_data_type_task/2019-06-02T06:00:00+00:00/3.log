@@ -1,0 +1,25 @@
+[2022-12-05 03:43:31,657] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_2_bq_dag.remodel_data_type_task scheduled__2019-06-02T06:00:00+00:00 [queued]>
+[2022-12-05 03:43:31,688] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_2_bq_dag.remodel_data_type_task scheduled__2019-06-02T06:00:00+00:00 [queued]>
+[2022-12-05 03:43:31,689] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 03:43:31,689] {taskinstance.py:1239} INFO - Starting attempt 3 of 3
+[2022-12-05 03:43:31,690] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 03:43:31,721] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): remodel_data_type_task> on 2019-06-02 06:00:00+00:00
+[2022-12-05 03:43:31,730] {standard_task_runner.py:52} INFO - Started process 8549 to run task
+[2022-12-05 03:43:31,736] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_2_bq_dag', 'remodel_data_type_task', 'scheduled__2019-06-02T06:00:00+00:00', '--job-id', '431', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestation_gcp.py', '--cfg-path', '/tmp/tmpuuu28rgy', '--error-file', '/tmp/tmppboipbpe']
+[2022-12-05 03:43:31,739] {standard_task_runner.py:77} INFO - Job 431: Subtask remodel_data_type_task
+[2022-12-05 03:43:31,839] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_2_bq_dag.remodel_data_type_task scheduled__2019-06-02T06:00:00+00:00 [running]> on host 9b5bfd347476
+[2022-12-05 03:43:31,952] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-12-05 03:43:31,986] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_2_bq_dag
+AIRFLOW_CTX_TASK_ID=remodel_data_type_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-02T06:00:00+00:00
+[2022-12-05 03:44:52,782] {python.py:175} INFO - Done. Returned value was: None
+[2022-12-05 03:44:52,875] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_2_bq_dag, task_id=remodel_data_type_task, execution_date=20190602T060000, start_date=20221205T034331, end_date=20221205T034452
+[2022-12-05 03:44:53,767] {local_task_job.py:212} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2022-12-05 03:44:53,787] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 8549. PIDs of all processes in the group: [8549]
+[2022-12-05 03:44:53,789] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 8549
+[2022-12-05 03:44:54,698] {process_utils.py:70} INFO - Process psutil.Process(pid=8549, status='terminated', exitcode=0, started='03:43:31') (8549) terminated with exit code 0

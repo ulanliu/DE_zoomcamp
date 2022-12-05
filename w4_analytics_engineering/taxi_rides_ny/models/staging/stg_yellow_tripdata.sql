@@ -2,8 +2,9 @@
 
 SELECT 
     -- identifiers
+    {{ dbt_utils.surrogate_key(['vendorid', 'tpep_pickup_datetime'])}} as trip_id,
     cast(vendorid as integer) as vendorid,
-    cast(ratecodeid as integer) as ratecodeid,
+    cast(ratecodeid as numeric) as ratecodeid,
     cast(pulocationid as integer) as  pickup_locationid,
     cast(dolocationid as integer) as dropoff_locationid,
     -- timestamps
@@ -25,7 +26,13 @@ SELECT
     cast(improvement_surcharge as numeric) as improvement_surcharge,
     cast(total_amount as numeric) as total_amount,
     cast(payment_type as integer) as payment_type,
+    {{ get_payment_type_description('payment_type')}} as get_payment_type_description,
     cast(congestion_surcharge as numeric) as congestion_surcharge
 
-FROM {{ source('staging', 'external_yellow_tripdata') }}
-LIMIT 100
+FROM {{ source('staging', 'yellow_taxi_2019_2020') }}
+
+{% if var('is_test_run', default=true) %}
+
+  LIMIT 100
+
+{% endif %}

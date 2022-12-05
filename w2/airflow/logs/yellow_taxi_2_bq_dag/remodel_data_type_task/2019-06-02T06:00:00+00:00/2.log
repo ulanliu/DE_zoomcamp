@@ -1,0 +1,109 @@
+[2022-12-05 03:34:41,109] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_2_bq_dag.remodel_data_type_task scheduled__2019-06-02T06:00:00+00:00 [queued]>
+[2022-12-05 03:34:41,138] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_2_bq_dag.remodel_data_type_task scheduled__2019-06-02T06:00:00+00:00 [queued]>
+[2022-12-05 03:34:41,139] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 03:34:41,140] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2022-12-05 03:34:41,141] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 03:34:41,171] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): remodel_data_type_task> on 2019-06-02 06:00:00+00:00
+[2022-12-05 03:34:41,180] {standard_task_runner.py:52} INFO - Started process 7315 to run task
+[2022-12-05 03:34:41,188] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_2_bq_dag', 'remodel_data_type_task', 'scheduled__2019-06-02T06:00:00+00:00', '--job-id', '415', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestation_gcp.py', '--cfg-path', '/tmp/tmp4pyoa1xk', '--error-file', '/tmp/tmpxofo3ggo']
+[2022-12-05 03:34:41,190] {standard_task_runner.py:77} INFO - Job 415: Subtask remodel_data_type_task
+[2022-12-05 03:34:41,293] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_2_bq_dag.remodel_data_type_task scheduled__2019-06-02T06:00:00+00:00 [running]> on host 9b5bfd347476
+[2022-12-05 03:34:41,403] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-12-05 03:34:41,448] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_2_bq_dag
+AIRFLOW_CTX_TASK_ID=remodel_data_type_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-02T06:00:00+00:00
+[2022-12-05 03:35:33,060] {local_task_job.py:212} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2022-12-05 03:35:33,081] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 7315. PIDs of all processes in the group: [7315]
+[2022-12-05 03:35:33,084] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 7315
+[2022-12-05 03:35:33,089] {taskinstance.py:1408} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-12-05 03:35:33,755] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestation_gcp.py", line 71, in remodel_parquet_data_type
+    'airport_fee': 'float64'
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 5799, in astype
+    col.astype(dtype=dtype[col_name], copy=copy, errors=errors)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 5815, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/internals/managers.py", line 418, in astype
+    return self.apply("astype", dtype=dtype, copy=copy, errors=errors)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/internals/managers.py", line 327, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/internals/blocks.py", line 591, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/dtypes/cast.py", line 1309, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/dtypes/cast.py", line 1257, in astype_array
+    values = astype_nansafe(values, dtype, copy=copy)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/dtypes/cast.py", line 1122, in astype_nansafe
+    return lib.ensure_string_array(arr, skipna=skipna, convert_na_value=False)
+  File "pandas/_libs/lib.pyx", line 686, in pandas._libs.lib.ensure_string_array
+  File "pandas/_libs/lib.pyx", line 743, in pandas._libs.lib.ensure_string_array
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1410, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2022-12-05 03:35:33,832] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=yellow_taxi_2_bq_dag, task_id=remodel_data_type_task, execution_date=20190602T060000, start_date=20221205T033441, end_date=20221205T033533
+[2022-12-05 03:35:33,906] {standard_task_runner.py:92} ERROR - Failed to execute job 415 for task remodel_data_type_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestation_gcp.py", line 71, in remodel_parquet_data_type
+    'airport_fee': 'float64'
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 5799, in astype
+    col.astype(dtype=dtype[col_name], copy=copy, errors=errors)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 5815, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/internals/managers.py", line 418, in astype
+    return self.apply("astype", dtype=dtype, copy=copy, errors=errors)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/internals/managers.py", line 327, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/internals/blocks.py", line 591, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/dtypes/cast.py", line 1309, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/dtypes/cast.py", line 1257, in astype_array
+    values = astype_nansafe(values, dtype, copy=copy)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/dtypes/cast.py", line 1122, in astype_nansafe
+    return lib.ensure_string_array(arr, skipna=skipna, convert_na_value=False)
+  File "pandas/_libs/lib.pyx", line 686, in pandas._libs.lib.ensure_string_array
+  File "pandas/_libs/lib.pyx", line 743, in pandas._libs.lib.ensure_string_array
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1410, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2022-12-05 03:35:36,928] {process_utils.py:70} INFO - Process psutil.Process(pid=7315, status='terminated', exitcode=1, started='03:34:41') (7315) terminated with exit code 1

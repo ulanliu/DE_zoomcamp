@@ -1,0 +1,23 @@
+[2022-12-05 04:55:32,144] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_2_bq_dag.local_to_gcp_task scheduled__2019-08-02T06:00:00+00:00 [queued]>
+[2022-12-05 04:55:32,178] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_2_bq_dag.local_to_gcp_task scheduled__2019-08-02T06:00:00+00:00 [queued]>
+[2022-12-05 04:55:32,179] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 04:55:32,180] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2022-12-05 04:55:32,181] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 04:55:32,213] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcp_task> on 2019-08-02 06:00:00+00:00
+[2022-12-05 04:55:32,223] {standard_task_runner.py:52} INFO - Started process 18319 to run task
+[2022-12-05 04:55:32,231] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_2_bq_dag', 'local_to_gcp_task', 'scheduled__2019-08-02T06:00:00+00:00', '--job-id', '571', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestation_gcp.py', '--cfg-path', '/tmp/tmpzyo9wk5g', '--error-file', '/tmp/tmpt4ieshhv']
+[2022-12-05 04:55:32,233] {standard_task_runner.py:77} INFO - Job 571: Subtask local_to_gcp_task
+[2022-12-05 04:55:32,352] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_2_bq_dag.local_to_gcp_task scheduled__2019-08-02T06:00:00+00:00 [running]> on host 9b5bfd347476
+[2022-12-05 04:55:32,495] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-12-05 04:55:32,532] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_2_bq_dag
+AIRFLOW_CTX_TASK_ID=local_to_gcp_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-08-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-08-02T06:00:00+00:00
+[2022-12-05 04:55:57,126] {python.py:175} INFO - Done. Returned value was: None
+[2022-12-05 04:55:57,156] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_2_bq_dag, task_id=local_to_gcp_task, execution_date=20190802T060000, start_date=20221205T045532, end_date=20221205T045557
+[2022-12-05 04:55:57,229] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-05 04:55:57,327] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

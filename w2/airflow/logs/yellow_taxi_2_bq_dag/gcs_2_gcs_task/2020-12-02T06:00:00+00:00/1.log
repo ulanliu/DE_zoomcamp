@@ -1,0 +1,27 @@
+[2022-12-05 04:19:21,967] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_2_bq_dag.gcs_2_gcs_task scheduled__2020-12-02T06:00:00+00:00 [queued]>
+[2022-12-05 04:19:21,993] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_2_bq_dag.gcs_2_gcs_task scheduled__2020-12-02T06:00:00+00:00 [queued]>
+[2022-12-05 04:19:21,994] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 04:19:21,995] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-12-05 04:19:21,995] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 04:19:22,022] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): gcs_2_gcs_task> on 2020-12-02 06:00:00+00:00
+[2022-12-05 04:19:22,030] {standard_task_runner.py:52} INFO - Started process 14178 to run task
+[2022-12-05 04:19:22,036] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_2_bq_dag', 'gcs_2_gcs_task', 'scheduled__2020-12-02T06:00:00+00:00', '--job-id', '541', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestation_gcp.py', '--cfg-path', '/tmp/tmpp066yi73', '--error-file', '/tmp/tmploso30pu']
+[2022-12-05 04:19:22,039] {standard_task_runner.py:77} INFO - Job 541: Subtask gcs_2_gcs_task
+[2022-12-05 04:19:22,133] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_2_bq_dag.gcs_2_gcs_task scheduled__2020-12-02T06:00:00+00:00 [running]> on host 9b5bfd347476
+[2022-12-05 04:19:24,820] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_2_bq_dag
+AIRFLOW_CTX_TASK_ID=gcs_2_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-12-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-12-02T06:00:00+00:00
+[2022-12-05 04:19:24,844] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-12-05 04:19:24,853] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-12-05 04:19:25,533] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/yellow_tripdata_2020-12.parquet to gs://my_nyc_tlc/yellow/2020-12.parquet
+[2022-12-05 04:19:25,677] {gcs.py:251} INFO - Total Bytes: 31745424 | Bytes Written: 31745424
+[2022-12-05 04:19:25,678] {gcs.py:264} INFO - Object raw/yellow_tripdata_2020-12.parquet in bucket my_nyc_tlc rewritten to object yellow/2020-12.parquet in bucket my_nyc_tlc
+[2022-12-05 04:19:25,759] {gcs.py:645} INFO - Blob raw/yellow_tripdata_2020-12.parquet deleted.
+[2022-12-05 04:19:25,797] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_2_bq_dag, task_id=gcs_2_gcs_task, execution_date=20201202T060000, start_date=20221205T041921, end_date=20221205T041925
+[2022-12-05 04:19:25,889] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-05 04:19:26,021] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

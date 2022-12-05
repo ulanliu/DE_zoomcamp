@@ -1,0 +1,23 @@
+[2022-12-05 05:36:57,875] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_2_bq_edited_dag.remodel_data_type_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-12-05 05:36:57,925] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_2_bq_edited_dag.remodel_data_type_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-12-05 05:36:57,928] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 05:36:57,929] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-12-05 05:36:57,931] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 05:36:57,981] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): remodel_data_type_task> on 2019-02-02 06:00:00+00:00
+[2022-12-05 05:36:57,993] {standard_task_runner.py:52} INFO - Started process 23172 to run task
+[2022-12-05 05:36:58,003] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_2_bq_edited_dag', 'remodel_data_type_task', 'scheduled__2019-02-02T06:00:00+00:00', '--job-id', '660', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestation_gcp.py', '--cfg-path', '/tmp/tmp5v3tkqvm', '--error-file', '/tmp/tmp_6sc895i']
+[2022-12-05 05:36:58,006] {standard_task_runner.py:77} INFO - Job 660: Subtask remodel_data_type_task
+[2022-12-05 05:36:58,188] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_2_bq_edited_dag.remodel_data_type_task scheduled__2019-02-02T06:00:00+00:00 [running]> on host 9b5bfd347476
+[2022-12-05 05:36:58,402] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-12-05 05:36:58,474] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_2_bq_edited_dag
+AIRFLOW_CTX_TASK_ID=remodel_data_type_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-02-02T06:00:00+00:00
+[2022-12-05 05:39:13,670] {python.py:175} INFO - Done. Returned value was: None
+[2022-12-05 05:39:13,757] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_2_bq_edited_dag, task_id=remodel_data_type_task, execution_date=20190202T060000, start_date=20221205T053657, end_date=20221205T053913
+[2022-12-05 05:39:16,927] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-05 05:39:17,222] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
