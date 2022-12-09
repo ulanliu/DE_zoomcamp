@@ -1,0 +1,22 @@
+[2022-12-05 14:29:54,956] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_2_bq_dag.gcs_2_bq_ext_task scheduled__2020-05-02T06:00:00+00:00 [queued]>
+[2022-12-05 14:29:54,986] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_2_bq_dag.gcs_2_bq_ext_task scheduled__2020-05-02T06:00:00+00:00 [queued]>
+[2022-12-05 14:29:54,987] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 14:29:54,987] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-12-05 14:29:54,988] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 14:29:55,018] {taskinstance.py:1259} INFO - Executing <Task(BigQueryCreateExternalTableOperator): gcs_2_bq_ext_task> on 2020-05-02 06:00:00+00:00
+[2022-12-05 14:29:55,028] {standard_task_runner.py:52} INFO - Started process 80347 to run task
+[2022-12-05 14:29:55,035] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_2_bq_dag', 'gcs_2_bq_ext_task', 'scheduled__2020-05-02T06:00:00+00:00', '--job-id', '748', '--raw', '--subdir', 'DAGS_FOLDER/green_taxi_data_2_bigq_dag.py', '--cfg-path', '/tmp/tmpj5khyxvf', '--error-file', '/tmp/tmp_u6vy1vv']
+[2022-12-05 14:29:55,038] {standard_task_runner.py:77} INFO - Job 748: Subtask gcs_2_bq_ext_task
+[2022-12-05 14:29:55,158] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_2_bq_dag.gcs_2_bq_ext_task scheduled__2020-05-02T06:00:00+00:00 [running]> on host 9b5bfd347476
+[2022-12-05 14:29:55,319] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_2_bq_dag
+AIRFLOW_CTX_TASK_ID=gcs_2_bq_ext_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-05-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-05-02T06:00:00+00:00
+[2022-12-05 14:29:55,323] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-12-05 14:29:55,958] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_2_bq_dag, task_id=gcs_2_bq_ext_task, execution_date=20200502T060000, start_date=20221205T142954, end_date=20221205T142955
+[2022-12-05 14:29:56,033] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-05 14:29:56,098] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

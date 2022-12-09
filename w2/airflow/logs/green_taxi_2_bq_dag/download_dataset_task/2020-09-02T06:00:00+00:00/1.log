@@ -1,0 +1,27 @@
+[2022-12-05 14:30:42,602] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_2_bq_dag.download_dataset_task scheduled__2020-09-02T06:00:00+00:00 [queued]>
+[2022-12-05 14:30:42,650] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_2_bq_dag.download_dataset_task scheduled__2020-09-02T06:00:00+00:00 [queued]>
+[2022-12-05 14:30:42,651] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 14:30:42,653] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-12-05 14:30:42,653] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 14:30:42,698] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2020-09-02 06:00:00+00:00
+[2022-12-05 14:30:42,714] {standard_task_runner.py:52} INFO - Started process 80607 to run task
+[2022-12-05 14:30:42,724] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_2_bq_dag', 'download_dataset_task', 'scheduled__2020-09-02T06:00:00+00:00', '--job-id', '761', '--raw', '--subdir', 'DAGS_FOLDER/green_taxi_data_2_bigq_dag.py', '--cfg-path', '/tmp/tmpe24qwvj0', '--error-file', '/tmp/tmp7e5f0uiu']
+[2022-12-05 14:30:42,726] {standard_task_runner.py:77} INFO - Job 761: Subtask download_dataset_task
+[2022-12-05 14:30:42,883] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_2_bq_dag.download_dataset_task scheduled__2020-09-02T06:00:00+00:00 [running]> on host 9b5bfd347476
+[2022-12-05 14:30:43,072] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-12-05 14:30:43,122] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_2_bq_dag
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-09-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-09-02T06:00:00+00:00
+[2022-12-05 14:30:43,130] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-05 14:30:43,134] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2020-09.parquet > /opt/***/output_2020-09.parquet']
+[2022-12-05 14:30:43,164] {subprocess.py:85} INFO - Output:
+[2022-12-05 14:30:45,213] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-12-05 14:30:45,282] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_2_bq_dag, task_id=download_dataset_task, execution_date=20200902T060000, start_date=20221205T143042, end_date=20221205T143045
+[2022-12-05 14:30:45,359] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-05 14:30:45,754] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

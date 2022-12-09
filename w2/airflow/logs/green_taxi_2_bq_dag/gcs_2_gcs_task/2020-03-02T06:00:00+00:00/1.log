@@ -1,0 +1,23 @@
+[2022-12-05 14:29:21,111] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_2_bq_dag.gcs_2_gcs_task scheduled__2020-03-02T06:00:00+00:00 [queued]>
+[2022-12-05 14:29:21,144] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_2_bq_dag.gcs_2_gcs_task scheduled__2020-03-02T06:00:00+00:00 [queued]>
+[2022-12-05 14:29:21,145] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 14:29:21,146] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-12-05 14:29:21,147] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 14:29:21,179] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): gcs_2_gcs_task> on 2020-03-02 06:00:00+00:00
+[2022-12-05 14:29:21,189] {standard_task_runner.py:52} INFO - Started process 80209 to run task
+[2022-12-05 14:29:21,197] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_2_bq_dag', 'gcs_2_gcs_task', 'scheduled__2020-03-02T06:00:00+00:00', '--job-id', '741', '--raw', '--subdir', 'DAGS_FOLDER/green_taxi_data_2_bigq_dag.py', '--cfg-path', '/tmp/tmpfkzf8rkc', '--error-file', '/tmp/tmp43z_t9ku']
+[2022-12-05 14:29:21,199] {standard_task_runner.py:77} INFO - Job 741: Subtask gcs_2_gcs_task
+[2022-12-05 14:29:21,335] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_2_bq_dag.gcs_2_gcs_task scheduled__2020-03-02T06:00:00+00:00 [running]> on host 9b5bfd347476
+[2022-12-05 14:29:21,561] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_2_bq_dag
+AIRFLOW_CTX_TASK_ID=gcs_2_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-03-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-03-02T06:00:00+00:00
+[2022-12-05 14:29:21,569] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-12-05 14:29:21,578] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-12-05 14:29:22,160] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_2_bq_dag, task_id=gcs_2_gcs_task, execution_date=20200302T060000, start_date=20221205T142921, end_date=20221205T142922
+[2022-12-05 14:29:22,256] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-05 14:29:22,405] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,35 @@
+[2022-12-05 14:22:56,367] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_2_bq_dag.gcs_2_gcs_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-12-05 14:22:56,396] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_2_bq_dag.gcs_2_gcs_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-12-05 14:22:56,397] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 14:22:56,397] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-12-05 14:22:56,398] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05 14:22:56,427] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): gcs_2_gcs_task> on 2019-02-02 06:00:00+00:00
+[2022-12-05 14:22:56,435] {standard_task_runner.py:52} INFO - Started process 78527 to run task
+[2022-12-05 14:22:56,441] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_2_bq_dag', 'gcs_2_gcs_task', 'scheduled__2019-02-02T06:00:00+00:00', '--job-id', '673', '--raw', '--subdir', 'DAGS_FOLDER/green_taxi_data_2_bigq_dag.py', '--cfg-path', '/tmp/tmpfhmvndii', '--error-file', '/tmp/tmppfdum351']
+[2022-12-05 14:22:56,443] {standard_task_runner.py:77} INFO - Job 673: Subtask gcs_2_gcs_task
+[2022-12-05 14:22:56,537] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_2_bq_dag.gcs_2_gcs_task scheduled__2019-02-02T06:00:00+00:00 [running]> on host 9b5bfd347476
+[2022-12-05 14:22:56,656] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_2_bq_dag
+AIRFLOW_CTX_TASK_ID=gcs_2_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-02-02T06:00:00+00:00
+[2022-12-05 14:22:56,659] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-12-05 14:22:56,660] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-12-05 14:22:57,084] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/green_tripdata_2019-02.parquet to gs://my_nyc_tlc/green/2019-02.parquet
+[2022-12-05 14:22:57,218] {gcs.py:251} INFO - Total Bytes: 13905927 | Bytes Written: 13905927
+[2022-12-05 14:22:57,219] {gcs.py:264} INFO - Object raw/green_tripdata_2019-02.parquet in bucket my_nyc_tlc rewritten to object green/2019-02.parquet in bucket my_nyc_tlc
+[2022-12-05 14:22:57,303] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-02.parquet deleted.
+[2022-12-05 14:22:57,304] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/green_tripdata_2019-03.parquet to gs://my_nyc_tlc/green/2019-03.parquet
+[2022-12-05 14:22:57,425] {gcs.py:251} INFO - Total Bytes: 14559455 | Bytes Written: 14559455
+[2022-12-05 14:22:57,426] {gcs.py:264} INFO - Object raw/green_tripdata_2019-03.parquet in bucket my_nyc_tlc rewritten to object green/2019-03.parquet in bucket my_nyc_tlc
+[2022-12-05 14:22:57,511] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-03.parquet deleted.
+[2022-12-05 14:22:57,512] {gcs_to_gcs.py:431} INFO - Executing copy of gs://my_nyc_tlc/raw/green_tripdata_2019-01.parquet to gs://my_nyc_tlc/green/2019-01.parquet
+[2022-12-05 14:22:57,631] {gcs.py:251} INFO - Total Bytes: 14982608 | Bytes Written: 14982608
+[2022-12-05 14:22:57,632] {gcs.py:264} INFO - Object raw/green_tripdata_2019-01.parquet in bucket my_nyc_tlc rewritten to object green/2019-01.parquet in bucket my_nyc_tlc
+[2022-12-05 14:22:57,726] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-01.parquet deleted.
+[2022-12-05 14:22:57,766] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_2_bq_dag, task_id=gcs_2_gcs_task, execution_date=20190202T060000, start_date=20221205T142256, end_date=20221205T142257
+[2022-12-05 14:22:57,906] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-12-05 14:22:57,991] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
