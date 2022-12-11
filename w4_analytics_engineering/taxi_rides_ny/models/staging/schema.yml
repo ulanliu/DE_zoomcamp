@@ -36,8 +36,14 @@ models:
             description: The date and time when the meter was disengaged.
           - name: Passenger_count 
             description: The number of passengers in the vehicle. This is a driver-entered value.
+            tests:
+                - dbt_expectations.expect_column_values_to_be_of_type:
+                    column_type: numeric
           - name: Trip_distance 
             description: The elapsed trip distance in miles reported by the taximeter.
+            tests:
+                - dbt_expectations.expect_column_values_to_be_of_type:
+                    column_type: numeric
           - name: Pickup_locationid
             description: locationid where the meter was engaged.
             tests:
@@ -89,18 +95,33 @@ models:
               the $0.50 and $1 rush hour and overnight charges.
               MTA_tax $0.50 MTA tax that is automatically triggered based on the metered
               rate in use.
+            tests:
+              - dbt_expectations.expect_column_values_to_be_of_type:
+                  column_type: numeric
           - name: Improvement_surcharge 
             description: > 
               $0.30 improvement surcharge assessed trips at the flag drop. The
               improvement surcharge began being levied in 2015.
+            tests:
+              - dbt_expectations.expect_column_values_to_be_of_type:
+                  column_type: numeric
           - name: Tip_amount 
             description: > 
               Tip amount. This field is automatically populated for credit card
               tips. Cash tips are not included.
+            tests:
+              - dbt_expectations.expect_column_values_to_be_of_type:
+                  column_type: numeric
           - name: Tolls_amount 
             description: Total amount of all tolls paid in trip.
+            tests:
+              - dbt_expectations.expect_column_values_to_be_of_type:
+                  column_type: numeric
           - name: Total_amount 
             description: The total amount charged to passengers. Does not include cash tips.
+            tests:
+              - dbt_expectations.expect_column_values_to_be_of_type:
+                  column_type: numeric
 
 models:
     - name: stg_green_tripdata
