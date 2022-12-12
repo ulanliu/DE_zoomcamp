@@ -11,6 +11,8 @@
         when 4 then 'Dispute'
         when 5 then 'Unknown'
         when 6 then 'Voided trip'
+        when null then 'Unknown'
+        when 0 then 'Unknown'
     end
 
 {% endmacro %}

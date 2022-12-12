@@ -38,7 +38,7 @@ models:
     #   +materialized: view
 
 vars:
-  payment_type_values: [1, 2, 3, 4, 5, 6]
+  payment_type_values: [1, 2, 3, 4, 5, 6, 0]
 
 seeds:
   taxi_rides_ny:
