@@ -39,7 +39,7 @@ SELECT
     trips_unioned.store_and_fwd_flag, 
     trips_unioned.passenger_count, 
     trips_unioned.trip_distance, 
-    trips_unioned.trip_type, 
+    -- trips_unioned.trip_type, 
     trips_unioned.fare_amount, 
     trips_unioned.extra, 
     trips_unioned.mta_tax, 

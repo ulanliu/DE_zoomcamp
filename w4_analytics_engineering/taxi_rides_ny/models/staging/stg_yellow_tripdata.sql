@@ -30,7 +30,7 @@ SELECT
     cast(tip_amount as numeric) as tip_amount,
     cast(tolls_amount as numeric) as tolls_amount,
     cast(0 as numeric) as ehail_fee,
-    cast(airport_fee as numeric) as airport_fee,
+    -- cast(airport_fee as numeric) as airport_fee,
     cast(improvement_surcharge as numeric) as improvement_surcharge,
     cast(total_amount as numeric) as total_amount,
     cast(payment_type as integer) as payment_type,
