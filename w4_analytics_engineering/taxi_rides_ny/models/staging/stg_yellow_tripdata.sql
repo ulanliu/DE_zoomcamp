@@ -1,4 +1,4 @@
-{{ config(materialized='view') }}
+{{ config(materialized='table') }}
 
 with tripdata as (
   SELECT *,
@@ -11,7 +11,8 @@ SELECT
     -- identifiers
     {{ dbt_utils.surrogate_key(['vendorid', 'tpep_pickup_datetime'])}} as trip_id,
     cast(vendorid as integer) as vendorid,
-    cast(ratecodeid as numeric) as ratecodeid,
+    CASE ratecodeid WHEN 'nan' THEN NULL
+      ELSE cast(ratecodeid as numeric) END AS ratecodeid,
     cast(pulocationid as integer) as  pickup_locationid,
     cast(dolocationid as integer) as dropoff_locationid,
     -- timestamps
