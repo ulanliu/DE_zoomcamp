@@ -4,4 +4,5 @@ w5_batch_processing/*.parquet
 w5_batch_processing/zones
 w5_batch_processing/*.csv
 .ipynb_checkpoints/
-w2/airflow/logs/scheduler
+w2_workflow_orchestration/airflow/logs/scheduler
+w2_workflow_orchestration/prefect/data
