@@ -2,6 +2,8 @@ from pathlib import Path
 import pandas as pd
 from prefect import flow, task
 from prefect_gcp.cloud_storage import GcsBucket
+from prefect_gcp.bigquery import bigquery_load_cloud_storage
+from prefect_gcp import GcpCredentials
 import os
 import logging
 
@@ -48,9 +50,23 @@ def write_local(df: pd.DataFrame, color: str, dataset_file: str) -> Path:
     return path
 
 @task()
-def write_gcs(path: Path) -> None:
+def write_gcs(path: Path) -> Path:
     gcs_block = GcsBucket.load("zoomcamp")
     gcs_block.upload_from_path(from_path=path, to_path=path)
+    gcs_path = path
+
+    return gcs_path
+
+@task()
+def load_data_from_gcs_to_bq(gcs_path) -> None:
+    gcp_credentials_block = GcpCredentials.load("zoomcamp")
+
+    bigquery_load_cloud_storage(
+        dataset="trips_data_all",
+        table="green_taxi_2020",
+        uri=gcs_path,
+        gcp_credentials=gcp_credentials_block.get_credentials_from_service_account()
+    )
 
 @flow()
 def etl_web_to_gcs(color: str, year: int, month: int) -> None:
@@ -61,7 +77,8 @@ def etl_web_to_gcs(color: str, year: int, month: int) -> None:
     df = fetch(dataset_url)
     df_clean = clean(df, color)
     path = write_local(df_clean, color, dataset_file)
-    write_gcs(path)
+    gcs_path = write_gcs(path)
+    load_data_from_gcs_to_bq(gcs_path)
 
 @flow()
 def etl_parent_flow(
