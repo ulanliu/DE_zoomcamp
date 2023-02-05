@@ -6,6 +6,7 @@ from prefect_gcp.bigquery import bigquery_load_cloud_storage
 from prefect_gcp import GcpCredentials
 import os
 import logging
+from google.cloud import bigquery
 
 @task()
 def fetch(dataset_url: str) -> pd.DataFrame:
@@ -50,23 +51,9 @@ def write_local(df: pd.DataFrame, color: str, dataset_file: str) -> Path:
     return path
 
 @task()
-def write_gcs(path: Path) -> Path:
+def write_gcs(path: Path) -> None:
     gcs_block = GcsBucket.load("zoomcamp")
     gcs_block.upload_from_path(from_path=path, to_path=path)
-    gcs_path = path
-
-    return gcs_path
-
-@task()
-def load_data_from_gcs_to_bq(gcs_path) -> None:
-    gcp_credentials_block = GcpCredentials.load("zoomcamp")
-
-    bigquery_load_cloud_storage(
-        dataset="trips_data_all",
-        table="green_taxi_2020",
-        uri=gcs_path,
-        gcp_credentials=gcp_credentials_block.get_credentials_from_service_account()
-    )
 
 @flow()
 def etl_web_to_gcs(color: str, year: int, month: int) -> None:
@@ -77,8 +64,45 @@ def etl_web_to_gcs(color: str, year: int, month: int) -> None:
     df = fetch(dataset_url)
     df_clean = clean(df, color)
     path = write_local(df_clean, color, dataset_file)
-    gcs_path = write_gcs(path)
-    load_data_from_gcs_to_bq(gcs_path)
+    write_gcs(path)
+    
+    gcp_credentials_block = GcpCredentials.load("zoomcamp")
+    
+    job_config = bigquery.LoadJobConfig()
+    job_config._properties["load"]["preserve_ascii_control_characters"] = True
+
+    schema = [
+        bigquery.SchemaField('VendorID', 'STRING', mode="REQUIRED"),
+        bigquery.SchemaField('lpep_pickup_datetime', 'TIMESTAMP', mode="REQUIRED"),
+        bigquery.SchemaField('lpep_dropoff_datetime', 'TIMESTAMP', mode="REQUIRED"),
+        bigquery.SchemaField('store_and_fwd_flag', 'STRING', mode="REQUIRED"),
+        bigquery.SchemaField('RatecodeID', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('PULocationID', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('DOLocationID', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('passenger_count', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('trip_distance', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('fare_amount', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('extra', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('mta_tax', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('tip_amount', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('tolls_amount', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('ehail_fee', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('improvement_surcharge', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('total_amount', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('payment_type', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('trip_type', 'FLOAT64', mode="REQUIRED"),
+        bigquery.SchemaField('congestion_surcharge', 'FLOAT64', mode="REQUIRED"),
+    ]
+
+    bigquery_load_cloud_storage(
+        dataset="trips_data_all",
+        table="green_taxi_2020",
+        uri=f"gs://dtc_data_lake_dtc-de-course-368906/data/{color}/{color}_tripdata_{year}-{month:02}.parquet",
+        gcp_credentials=gcp_credentials_block,
+        job_config=job_config,
+        schema=schema,
+        location='asia-east1'
+    )
 
 @flow()
 def etl_parent_flow(

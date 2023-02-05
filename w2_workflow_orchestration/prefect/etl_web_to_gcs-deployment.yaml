@@ -1,24 +1,26 @@
 ###
-### A complete description of a Prefect Deployment for flow 'etl-parent-flow'
+### A complete description of a Prefect Deployment for flow 'etl-web-to-gcs'
 ###
-name: Parameterized ETL
-description: null
-version: 82b3b326e0a3350c96bec5fd33e44ebb
+name: hw_flow_1
+description: The main ETL function
+version: 0a6f0ee0509859615e8c83a7f2fdffa9
 # The work queue that will handle this deployment's runs
 work_queue_name: default
 tags: []
 parameters:
   color: green
   year: 2020
-  months:
-  - 1
-schedule: null
+  month: 1
+schedule:
+  cron: 0 5 1 * *
+  timezone: null
+  day_or: true
 infra_overrides: {}
 
 ###
 ### DO NOT EDIT BELOW THIS LINE
 ###
-flow_name: etl-parent-flow
+flow_name: etl-web-to-gcs
 manifest_path: null
 infrastructure:
   type: process
@@ -28,35 +30,32 @@ infrastructure:
   command: null
   stream_output: true
   working_dir: null
-  _block_document_id: 2d17ce5f-cf52-499b-a414-f5f12b183be4
-  _block_document_name: anonymous-821f53fd-32c9-4f2e-82b3-75508c7e90b8
+  _block_document_id: 4b6cd7a0-1e91-4548-ac48-70e7b816332f
+  _block_document_name: anonymous-5ebcf54b-b76f-4d89-a3ac-61118049c62a
   _is_anonymous: true
   block_type_slug: process
   _block_type_slug: process
 storage: null
-path: /Users/peter/DE_zoomcamp/w2_workflow_orchestration/prefect/flows/02_deployment
-entrypoint: parameterized_flow.py:etl_parent_flow
+path: /Users/peter/DE_zoomcamp/w2_workflow_orchestration/prefect
+entrypoint: flows/01_ingest_data/etl_web_to_gcs.py:etl_web_to_gcs
 parameter_openapi_schema:
   title: Parameters
   type: object
   properties:
     color:
       title: color
-      default: yellow
       position: 0
       type: string
     year:
       title: year
-      default: 2021
       position: 1
       type: integer
-    months:
-      title: months
-      default:
-      - 1
+    month:
+      title: month
       position: 2
-      type: array
-      items:
-        type: integer
-  required: null
+      type: integer
+  required:
+  - color
+  - year
+  - month
   definitions: null

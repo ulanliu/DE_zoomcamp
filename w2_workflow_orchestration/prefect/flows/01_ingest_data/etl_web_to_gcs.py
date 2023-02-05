@@ -13,11 +13,15 @@ def fetch(dataset_url: str) -> pd.DataFrame:
     return df
 
 @task(log_prints=True)
-def clean(df: pd.DataFrame) -> pd.DataFrame:
+def clean(df: pd.DataFrame, color: str) -> pd.DataFrame:
     """Transform the time format"""
     
-    df["tpep_pickup_datetime"] = pd.to_datetime(df["tpep_pickup_datetime"])
-    df["tpep_dropoff_datetime"] = pd.to_datetime(df["tpep_dropoff_datetime"])
+    if color == "yellow":
+        df["tpep_pickup_datetime"] = pd.to_datetime(df["tpep_pickup_datetime"])
+        df["tpep_dropoff_datetime"] = pd.to_datetime(df["tpep_dropoff_datetime"])
+    if color == "green":
+        df["lpep_pickup_datetime"] = pd.to_datetime(df["lpep_pickup_datetime"])
+        df["lpep_dropoff_datetime"] = pd.to_datetime(df["lpep_dropoff_datetime"])
     print(df.head(2))
     print(f"columns: {df.dtypes}")
     print(f"rows: {len(df)}")
@@ -44,18 +48,21 @@ def write_gcs(path: Path) -> None:
     gcs_block.upload_from_path(from_path=path, to_path=path)
 
 @flow()
-def etl_web_to_gcs() -> None:
+def etl_web_to_gcs(color: str, year: int, month: int) -> None:
     """The main ETL function"""
-    color = 'yellow'
-    year = 2021
-    month = 1
+
     dataset_file = f"{color}_tripdata_{year}-{month:02}"
     dataset_url = f"https://github.com/DataTalksClub/nyc-tlc-data/releases/download/{color}/{dataset_file}.csv.gz"
 
     df = fetch(dataset_url)
-    df_clean = clean(df)
+    df_clean = clean(df, color)
     path = write_local(df_clean, color, dataset_file)
     write_gcs(path)
 
+@flow()
+def etl_parent_flow(color: str, year: int, months: list[int]) -> None:
+    for month in months:
+        etl_web_to_gcs(color, year, month)
+
 if __name__ == "__main__":
-    etl_web_to_gcs()
+    etl_parent_flow()
