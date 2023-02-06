@@ -39,7 +39,7 @@ storage:
   block_type_slug: github
   _block_type_slug: github
 path: ''
-entrypoint: flows/03_homework/hw_etl_web_to_gcs.py:etl_parent_flow
+entrypoint: w2_workflow_orchestration/prefect/flows/03_homework/hw_etl_web_to_gcs.py:etl_parent_flow
 parameter_openapi_schema:
   title: Parameters
   type: object
