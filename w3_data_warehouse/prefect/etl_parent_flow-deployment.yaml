@@ -1,0 +1,66 @@
+###
+### A complete description of a Prefect Deployment for flow 'etl-parent-flow'
+###
+name: w3_fhv_flow
+description: null
+version: b59c824ec7693923715f978afb2b3ff0
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+tags: []
+parameters:
+  year: 2019
+  months:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+schedule: null
+infra_overrides: {}
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: etl-parent-flow
+manifest_path: null
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  _block_document_id: d53fc66f-1fdf-441b-9197-864fdd8b4fa5
+  _block_document_name: anonymous-d524ab3c-2c57-4dd3-97fe-6099f08276bd
+  _is_anonymous: true
+  block_type_slug: process
+  _block_type_slug: process
+storage: null
+path: /Users/peter/DE_zoomcamp/w3_data_warehouse/prefect
+entrypoint: fhv_web_to_gsc.py:etl_parent_flow
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties:
+    year:
+      title: year
+      position: 0
+      type: integer
+    months:
+      title: months
+      position: 1
+      type: array
+      items:
+        type: integer
+  required:
+  - year
+  - months
+  definitions: null
