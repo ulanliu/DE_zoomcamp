@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dtc-de-course-368906
+    schema: trips_data_all
+    
+    tables:
+      - name: fhv_2019_bq
+
+models:
+  - name: stg_fhv_tripdata
+    description: >
+      For-Hire Vehicle (“FHV”) trip records include fields capturing the dispatching base license number and the pick-up date, time, and taxi zone location ID (shape file below). These records are generated from the FHV Trip Record submissions made by bases.
+    columns:
+      - name: dispatching_base_num
+        description: The TLC Base License Number of the base that dispatched the trip
+
+      - name: pickup_datetime
+        description: The date and time of the trip pick-up
+
+      - name: dropOff_datetime
+        description: The date and time of the trip dropoff
+
+      - name: PUlocationID
+        description: TLC Taxi Zone in which the trip began
+
+      - name: DOlocationID
+        description: TLC Taxi Zone in which the trip ended
+
+      - name: SR_Flag
+        description: Indicates if the trip was a part of a shared ride chain offered by a High Volume FHV company (e.g. Uber Pool, Lyft Line). For shared trips, the value is 1. For non-shared rides, this field is null.
+
+      - name: Affiliated_base_number
