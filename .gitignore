@@ -7,6 +7,7 @@ w5_batch_processing/*.csv
 w2_workflow_orchestration/airflow/logs/scheduler
 w2_workflow_orchestration/prefect/data
 w2_workflow_orchestration/prefect/flows/02_deployment/data
+*-deployment.yaml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
