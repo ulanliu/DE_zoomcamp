@@ -35,6 +35,9 @@ models:
   nyc_taxi_rides:
     # Applies to all files under models/example/
 
+vars:
+  payment_type_values: [1, 2, 3, 4, 5, 6, 0]
+
 seeds:
   nyc_taxi_rides:
     taxi_zone_lookup:
