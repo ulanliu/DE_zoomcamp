@@ -1,4 +1,4 @@
-{{ config(materialized='view')}}
+{{ config(materialized='table')}}
 
 select 
     cast(dispatching_base_num as string) as dispatching_base_num,
@@ -8,7 +8,7 @@ select
     cast(DOlocationID as integer) as dropoff_locationid,
     cast(SR_Flag as integer) as sr_flag,
     cast(Affiliated_base_number as string) as affiliated_base_number
-from {{ source('staging', 'fhv_2019_bq')}}
+from {{ source('staging', 'fhv_2019')}}
 
 {% if var('is_test_run', default=true) %}
 
