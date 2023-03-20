@@ -1,0 +1,10 @@
+bg-de-zoomcamp-project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: who-data
+      dataset: dbt_who_data
+      threads: 4
+      keyfile: my_key_file.json

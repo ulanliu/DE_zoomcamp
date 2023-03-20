@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: staging
+    database: de-zoomcamp-378315
+    schema: who_disease_data
+
+    tables:
+      - name: monkeypox
+      - name: covid-19
+
+
