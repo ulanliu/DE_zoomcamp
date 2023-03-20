@@ -6,6 +6,7 @@ from prefect import flow, task
 from prefect_gcp.cloud_storage import GcsBucket
 from prefect_gcp import GcpCredentials
 from prefect_gcp.bigquery import bigquery_load_cloud_storage
+from prefect_gcp.bigquery import bigquery_load_file
 import os
 import logging
 
@@ -40,35 +41,54 @@ def extract(url: str) -> Path:
 def load_data_to_gcs(path: Path) -> None:
     gcs_block = GcsBucket.load("zoomcamp-2")
     gcs_block.upload_from_path(from_path=path, to_path=path)
-
-@task(log_prints=True)
-def load_data_to_bq(path: Path, url: str) -> None:
-    gcp_credentials_block = GcpCredentials.load("zoomcamp-2")
-
-    df = pd.read_csv(path)
-    if 'monkeypox' in url:
-        table_name = 'monkeypox'
-    if 'covid-19' in url:
-        table_name = 'covid-19'
-    
-    df.to_gbq(
-        destination_table=f"who_disease_data.{table_name}",
-        project_id="de-zoomcamp-378315",
-        credentials=gcp_credentials_block.get_credentials_from_service_account(),
-        if_exists="replace"
-    )
+    gcs_path = path
+    return gcs_path
 
 @flow()
 def el_web_to_gcs(url: str) -> None:
     path = extract(url)
-    load_data_to_gcs(path)
-    load_data_to_bq(path, url)
+    gcs_path = load_data_to_gcs(path)
+    load_data_to_bq(gcs_path)
+
+@flow
+def load_data_to_bq(gcs_path: Path):
+
+    gcp_credentials_block = GcpCredentials.load("zoomcamp-2")
+    
+    if 'monkeypox' in str(gcs_path):
+        table_name = 'monkeypox'
+    if 'covid-19' in str(gcs_path):
+        table_name = 'covid-19'    
+    result = bigquery_load_file(
+        dataset='who_disease_data',
+        table=table_name,
+        path=gcs_path,
+        gcp_credentials=gcp_credentials_block
+    )
+
+    return result
+
+
+# @flow
+# def load_data_to_bq():
+
+#     gcp_credentials_block = GcpCredentials.load("zoomcamp-2")
+#     day = date.today().strftime('%Y%m%d')
+#     for disease in ['monkeypox', 'covid-19']:
+    
+#         result = bigquery_load_file(
+#             dataset='who_disease_data',
+#             table=disease,
+#             path=Path(f"data/{disease}_{day}.csv"),
+#             gcp_credentials=gcp_credentials_block
+#         )
+
+#     return result
 
 @flow()
 def el_parent_flow(url_list: list[str]) -> None:
     for url in url_list:
         el_web_to_gcs(url)
-
 
 if __name__ == "__main__":
     el_parent_flow()
