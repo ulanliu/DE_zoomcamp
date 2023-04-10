@@ -32,29 +32,29 @@ Week 3 Recap:
 This week is about analytics engineering, which is willing to fill the gap between data engineer and data analyst/data scientist. Data analysts or data scientists can use data modeling tools like dbt (data build tool) or Dataform to transform the data using SQL. This course is focusing on dbt. dbt is a SQL-first transform workflow that works on data warehouse, so it is fit for ELT (Extract-Load-Transform). With ELT, we can avoid the data missing in the ETL process.
 
 Week 4 Recap:
-• dbt core
-• dbt cloud
-• Data modeling
-• ETL vs ELT
-• Looker
+- dbt core
+- dbt cloud
+- Data modeling
+- ETL vs ELT
+- Looker
 
 ## [Week 5: Batch processing](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_5_batch_processing)
   
 Week 5 Recap:
-• Batch processing
-• Spark
-• Spark Dataframes
-• Spark SQL
-• Internals: GroupBy and joins
+- Batch processing
+- Spark
+- Spark Dataframes
+- Spark SQL
+- Internals: GroupBy and joins
   
 
 ## [Week 6: Streaming](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_5_batch_processing)
   
 Week 6 Recap:
-• Introduction to Kafka
-• Schemas (avro)
-• Kafka Streams
-• Kafka Connect and KSQL
+- Introduction to Kafka
+- Schemas (avro)
+- Kafka Streams
+- Kafka Connect and KSQL
 
 ## [Week 7: Course Project](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_7_project)
 
