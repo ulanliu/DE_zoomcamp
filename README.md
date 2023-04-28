@@ -1,5 +1,7 @@
 > This repository records the studying progress of Data Engineering Zoomcamp
 
+![certificate](image/certificate.png)  
+
 ## [Week 1: Introduction & Prerequisites](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_1_basics_n_setup)
   
 In the first week, I set up the PostgreSQL and PGadmin via Docker Compose and build a simple data pipeline ingesting the NYC taxi data into PostgreSQL, and use PGadmin to explore the data. Also, I learn how to set up the virtual machine at Google Cloud Platform (GCP) and connect with local network via ssh and manage GCP services via Terraform.
