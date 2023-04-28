@@ -1,6 +1,7 @@
 > This repository records the studying progress of Data Engineering Zoomcamp
 
 ![certificate](image/certificate.png)  
+link: https://certificate.datatalks.club/dezoomcamp/2023/1738d75e87202ef0392e9918baa8e306433c9bb6.pdf  
 
 ## [Week 1: Introduction & Prerequisites](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_1_basics_n_setup)
   
